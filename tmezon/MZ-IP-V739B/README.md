@@ -49,6 +49,24 @@ telnetd &
 User: root
 Pass: "" (empty password)
 
+## netstat
+
+```
+~ # netstat -tulpen
+Active Internet connections (only servers)
+Proto Recv-Q Send-Q Local Address           Foreign Address         State       PID/Program name    
+tcp        0      0 0.0.0.0:20510           0.0.0.0:*               LISTEN      165/vs_server
+tcp        0      0 0.0.0.0:7778            0.0.0.0:*               LISTEN      165/vs_server
+tcp        0      0 0.0.0.0:554             0.0.0.0:*               LISTEN      165/vs_server
+tcp        0      0 0.0.0.0:80              0.0.0.0:*               LISTEN      165/vs_server
+tcp        0      0 :::23                   :::*                    LISTEN      166/telnetd
+udp        0      0 0.0.0.0:1500            0.0.0.0:*                           165/vs_server
+udp        0      0 0.0.0.0:46062           0.0.0.0:*                           165/vs_server
+udp        0      0 0.0.0.0:20989           0.0.0.0:*                           165/vs_server
+udp        0      0 0.0.0.0:8002            0.0.0.0:*                           165/vs_server
+udp        0      0 0.0.0.0:5555            0.0.0.0:*                           165/vs_server
+```
+
 ## nmap
 
 ```
