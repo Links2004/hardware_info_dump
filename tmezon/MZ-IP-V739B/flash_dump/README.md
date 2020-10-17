@@ -14,11 +14,14 @@ mem=128M console=ttyAMA0,115200 root=/dev/mtdblock2 rootfstype=jffs2 rw mtdparts
 ```
 
 ## Note
-boot --> UBOOT
-kernel --> linux kernel (3.18.20)
-rootfs --> jffs2
-config --> jffs2
-key --> MAC some key but mostly 0xFF and may a 4 byte checksum
+
+| Name    | Note                                                   |
+|---------|--------------------------------------------------------|
+| boot    | UBOOT                                                  |
+| kernel  | linux kernel (3.18.20)                                 |
+| rootfs  | jffs2                                                  |
+| config  | jffs2                                                  |
+| key     | MAC some key but mostly 0xFF and may a 4 byte checksum |
 
 most interesting binarys:
 
