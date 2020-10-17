@@ -20,6 +20,9 @@ rootfs --> jffs2
 config --> jffs2
 key --> MAC some key but mostly 0xFF and may a 4 byte checksum
 
+most interesting binarys:
+
+- jffs2-rootfs/fs_1/bin/vs/vs_server
 
 # Dump
 

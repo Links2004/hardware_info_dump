@@ -29,3 +29,34 @@ Serial          : 0000000000000000
 ```
 
 ## Serial
+
+The device has 3 Serial ports @ 3V3 TTL level.
+the pads are labeled on the PCB.
+
+| Where                 | Baud   | Note                             |
+|-----------------------|--------|----------------------------------|
+| compute module        | 115200 | Uboot + Kernel + Shell (no auth) |
+| at connectors         | 38400  | binary garbage                   |
+| beside compute module | ?      | no data seen                     |
+
+## Getting Network access
+
+Start telnetd
+```
+telnetd &
+```
+
+User: root
+Pass: "" (empty password)
+
+## nmap
+
+```
+PORT      STATE    SERVICE    REASON      VERSION
+23/tcp    open     telnet?    syn-ack
+80/tcp    open     http       syn-ack     thttpd 2.25b 29dec2003
+|_ HTML title: Site doesn't have a title.
+554/tcp   open     rtsp?      syn-ack
+7778/tcp  open     tcpwrapped syn-ack
+20510/tcp open     unknown    syn-ack
+```
