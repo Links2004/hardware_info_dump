@@ -41,12 +41,13 @@ most interesting binarys:
 
 ## Download
 
+```
 http://<IP>/tmpfs/boot.bin
 http://<IP>/tmpfs/kernel.bin
 http://<IP>/tmpfs/rootfs.bin
 http://<IP>/tmpfs/config.bin
 http://<IP>/tmpfs/key.bin
-
+```
 
 ## jffs2 extract
 
