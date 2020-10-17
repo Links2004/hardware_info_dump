@@ -1,0 +1,32 @@
+#!/bin/sh
+
+echo "/root/pm_callback" > /proc/sys/kernel/pm_notifier
+
+hbtype=resume
+cmdline=`cat /proc/cmdline`
+
+for str in $cmdline
+do
+	case $str in 
+	     hbtype=*)
+	     hbtype=`echo "$str" | awk -F"=" '{print $2}'`
+	esac
+done
+
+if [ "$hbtype"x = "snap"x ]; then
+	echo "hibernate start"
+	echo disk > /sys/power/state
+fi
+
+# pyu: 
+echo "oooooooo: start app: hibernate=$hbtype."
+
+if [ -e /etc/datetime ]
+then
+	date $(cat /etc/datetime)
+else
+	date 010101012000
+fi
+
+/etc/boottab &
+#telnetd

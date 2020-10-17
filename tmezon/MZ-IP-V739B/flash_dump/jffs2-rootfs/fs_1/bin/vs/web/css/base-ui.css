@@ -1,0 +1,943 @@
+/* CSS Document */
+body {
+	font-family: Arial, Helvetica, sans-serif;
+	background:#363539;
+	width: auto;
+	height: auto;
+	margin: 0px;
+	border: 0px;
+	padding: 0px;
+	font-size: 16px;
+}
+select {
+	color: #444955;
+	margin: 0px;
+	width:120px;
+}
+.conternLayerStyle h4{
+	margin: 5px 20px;
+	margin-left: 0px;
+	color: #CC3333;
+	font-size:14px;
+}
+
+div{vertical-align:middle;}
+
+a{cursor:pointer;}
+	
+
+
+.conternLayerStyle div > span{
+	margin: 5px 0px 10px 30px;
+	display: -moz-inline-box;
+	display: inline-block;
+	width: 120px;
+	font-size:14px;
+}
+
+.SpanStyle{/********兼容IE6 这时属性等于.conternLayerStyle div > span**********/
+	margin: 5px 0px 10px 30px;
+	display: inline-block;
+	width: 120px;
+	font-size:14px;	
+	*display:inline;
+    *zoom:1;
+}
+
+.content label {
+	margin: 0px 10px;
+}
+.container{
+	margin: 0px auto;
+	width: 1065px;
+}
+.header {
+	background:url(../images/menu-bar_bg.gif);
+	position: relative;
+	width: 100%;
+	height:51px;
+}
+.container {
+/*	background: #FFF;*/
+	position: absolute;
+	left: 0px;
+	width: 100%;
+	height: 92%;
+/*	padding-top: 10px;
+	padding-left: 10px;
+	padding-right: 10px;*/
+}
+.side {
+	border: 0px;
+	padding: 0px;
+	left: 0px;
+	width: 200px;
+	height: 705px;
+	background: #FFF;
+	float: left;
+	margin-top: 10px;
+	border: 1px dashed #8FD9FF;
+}
+.contentframe {
+/*	position: relative;
+	top: 15px;
+	left: 245px;*/
+	width: 780px;
+	height: 705px;
+	border: 0px;
+	background: #fff;
+	color: #444955;
+	float:right;
+	display:inline;
+	margin-top:10px;
+/*	margin-right:37px;*/
+	margin-left:10px;
+}
+.content{
+	width: 760px;
+	height: 675px;
+	background: #fff;
+	color: #000;
+	border: 1px dashed #8FD9FF;
+}
+
+.side h1 {
+	margin: 0px auto;
+	height: 38px;
+	background: url(../images/side-title_bg.png);
+	line-height: 42px;
+/*	padding-left: 40px;*/
+	font-size: 18px;
+	color: #999999;	
+	display: block;
+    overflow: hidden;
+    width: 200px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/side-title_bg.png', sizingMethod='scale');
+	*background:none;
+}
+.side h1 span{
+		margin-left:10px;
+}
+.side a span{
+	margin:0px;	
+	color:#000;
+}
+
+.SideAFirstchildSpan{display:inline-block; width:150px;}
+
+.side a {
+	display: block;
+	margin-top: 1px;
+	margin-bottom: 1px;
+	margin-left: 0px;
+	margin-right: 0px;
+	width: 166px;
+	height: 30px;
+	background:#FFF;
+	line-height: 30px;
+	padding-left: 34px;
+	text-decoration: none;
+	color: #000;
+	font-size: 14px;
+}
+.side a:hover {
+/*	color: #FFF;
+	background:url(../images/now_bar.png);*/
+		/****************IE6*****************/
+/*	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/now_bar.png', sizingMethod='scale');
+	*background:none;*/
+	position:relative;
+	left:5px;
+}
+
+.cutoffrule {
+	background: #666666;
+/*	margin: 0px;
+	margin-left: 20px;
+	margin-right: 20px;
+	margin-top: 10px;*/
+	border-top: 1px #666666 solid;
+}
+#apply, #cancel, #default {
+	background:url(../images/btn02_bg.png);
+	text-align:center;
+	line-height:32px;
+	width:82px;
+	height:32px;
+	color: #FFFFFF;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	text-decoration: none;
+	*display:inline;
+    *zoom:1;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/btn02_bg.png', sizingMethod='scale');
+	*background:none;
+}
+#apply:hover, #cancel:hover, #default:hover {
+	background:url(../images/btn02-hover_bg.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/btn02-hover_bg.png', sizingMethod='scale');
+	*background:none;
+}
+
+.classname {
+	background:url(../images/btn01_bg.png);
+	color: #FFFFFF;
+	width:95px;
+	height:32px;
+	line-height:32px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+    text-decoration: none;
+	*display:inline;
+    *zoom:1;
+			/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/btn01_bg.png', sizingMethod='scale');
+	*background:none;
+}
+.classname:hover {
+	background:url(../images/btn01-hover_bg.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/btn01-hover_bg.png', sizingMethod='scale');
+	*background:none;
+}
+
+#Login {
+	background:url(../images/login-btn_bg.png);
+	color: #FFFFFF;
+	width:82px;
+	height:32px;
+	line-height:32px;
+	display: inline-block;
+	font-size: 15px;
+	font-weight: bold;
+	text-align:center;
+	margin-left:10px;
+	*display:inline;
+    *zoom:1;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/login-btn_bg.png', sizingMethod='scale');
+	*background:none;
+}
+#Login:hover {
+	background:url(../images/login-btn-hover_bg.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/login-btn-hover_bg.png', sizingMethod='scale');
+	*background:none;
+}
+
+.timepagediv {
+	margin-left: 0px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+.header ul{
+	width: 553px;
+	margin: 0;
+	position: relative;
+	font-size: 14px;
+	padding-left: 0;
+	border-left:#15181d solid 1px;
+	height: 39px;
+}
+.header li{
+	display:block;
+	position:relative;
+	float:left;
+	border-top:0;
+	border-right:#15181d solid 1px;
+	height:38px;
+}
+.header li a{
+	font-size: 18px;
+	text-align: center;
+	font-weight: bold;
+	line-height: 22px;
+	display: block;
+	padding: 8px 18px;
+	color: #fff;
+	text-decoration: none;
+	white-space: nowrap;
+	height: 22px;
+	width: 90px;
+	
+	}
+.header li a:hover{ background:#FF0000;}
+
+
+#MdDisplayLayer {
+	position:relative;
+	margin: 0px;
+	margin-top: 0px;
+	margin-left: 84px;
+	padding: 0px;
+	width: 640px;
+	height: 360px;
+}
+.LeftToolLayerStyle {
+/*	background:#dddddd;*/
+	float: right;
+	margin-top:5px;
+	margin-right:0px;
+	padding: 4px 4px 0px 4px;
+	width: 240px;
+	height: 100%;/*	background: url(../images/container_bg.png);*/
+}
+.LeftToolLayerStyle label, .LeftToolLayerStyle span {
+	color: #9e9e9c;
+	font-size:13px;
+}
+
+#PtzDirLayer  a{
+	width: 42px;;
+	height: 42px;
+	display:inline-block;
+	*margin:2px;
+	*display:inline;
+	*zoom:1;
+}
+#PtzLeftTop
+{
+	background: url(../images/PtzLeftTop.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeftTop.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzLeftTop:hover
+{
+	background: url(../images/PtzLeftTop-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeftTop-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzTop {
+	background: url(../images/PtzTop.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzTop.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzTop:hover {
+	background: url(../images/PtzTop-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzTop-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRightTop {
+	background: url(../images/PtzRightTop.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRightTop.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRightTop:hover{
+	background: url(../images/PtzRightTop-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRightTop-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#PtzLeft
+{
+	background: url(../images/PtzLeft.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeft.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzLeft:hover
+{
+	background: url(../images/PtzLeft-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeft-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzStop {
+	background: url(../images/PtzStop.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzStop.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzStop:hover {
+	background: url(../images/PtzStop-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzStop-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRight {
+	background: url(../images/PtzRight.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRight.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRight:hover{
+	background: url(../images/PtzRight-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRight-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+
+#PtzLeftDown
+{
+	background: url(../images/PtzLeftDown.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeftDown.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzLeftDown:hover
+{
+	background: url(../images/PtzLeftDown-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLeftDown-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzDown {
+	background: url(../images/PtzDown.png);
+						/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzDown.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzDown:hover {
+	background: url(../images/PtzDown-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzDown-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRightDown {
+	background: url(../images/PtzRightDown.png);
+					/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRightDown.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzRightDown:hover{
+	background: url(../images/PtzRightDown-hover.png);
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzRightDown-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#PtzLRScan{
+	background:url(../images/PtzLRScan.png);
+	width:24px;
+	height:24px;
+	display:inline-block;
+	float:left;
+	position:relative;
+	left:13px;
+	*display:inline;
+	*zoom:1;
+	text-decoration:none;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLRScan.png', sizingMethod='scale');
+	*background:none;
+}
+#PtzLRScan:hover{
+	background:url(../images/PtzLRScan-hover.png);	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzLRScan-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#PtzUPScan{
+	background:url(../images/PtzUPScan.png);
+	width:24px;
+	height:24px;
+		display:inline-block;
+		float:right;
+		position:relative;
+		right:13px;
+	*display:inline;
+	*zoom:1;
+				/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzUPScan.png', sizingMethod='scale');
+	*background:none;
+
+}
+#PtzUPScan:hover{
+	background:url(../images/PtzUPScan-hover.png);	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/PtzUPScan-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#PtzCtrLayer{
+/*	border:1px solid #212129;
+	background:#313540;*/
+}
+
+#PtzDirLayer{
+	width:165px;
+	margin:0 auto;
+	margin-top:15px;
+	margin-bottom:15px;
+	*margin-top:2px;
+	*margin-bottom:2px;
+}
+#PTZScanLayer{
+	display:none;
+	text-align:center;
+	border-top:1px #212129 solid;	
+	border-bottom:1px #212129 solid;
+	height:24px;
+}
+#PtzLRScanLayer{
+	width:36px;
+	height:36px;	
+	float:left;
+	border-right:1px solid #212129;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+#PTZPointLayer{display:none;}
+
+#PtzUPScanLayer{
+	width:36px;
+	height:36px;	
+	float:right;
+	border-left:1px solid #212129;
+		display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+#PtzScanLabelLayer{
+	border-left: 1px solid #212129;
+	border-right: 1px solid #212129;
+	font-size: 20px;
+	height: 24px;
+	line-height: 24px;
+	width: 120px;
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+.inputfile {
+	position: absolute;
+	left: 0px;
+	top: 4px;
+	z-index: 100;
+	margin-left: -198px;
+	font-size: 17px;
+	margin-top: -5px;
+	height: 35px;
+	opacity: 0;
+	filter: alpha(opacity=0);
+}
+/*有些页面的option 不能翻译，但个别又要翻译的，例如aralm in页面， 主要是为多国语言翻译使用*/
+.optionspan {
+}
+.slieder {
+	display: inline-block;
+	width: 150px;
+
+
+/***********兼容IE6************/
+*display:inline;
+*zoom:1;
+}
+.LoginLayerStyle {
+	position:relative;
+	width: 416px;
+	height: 352px;
+}
+
+.LoginLayerImgStyle
+{
+	position:absolute;
+	left:0px;
+	top:0px;
+	width:326px;
+	height:217px;
+	background:#FFF;
+	border: 6px solid #666666;
+}
+
+#LoginLayer span {
+	width: 120px;
+/*	margin-left: 40px;*/
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+}
+
+.DisplayareaLayerStyle {
+	display:inline-block;
+	float:left;
+	margin:5px 5px 0px 5px;
+	width: 500px;
+	*display:inline;
+    *zoom:1;
+	
+}
+
+#GotoPoint{
+	background:url(../images/goto.png); 
+	display:inline-block;
+	height:16px; 
+	width:16px; 
+	margin-left:6px;
+	position: relative;
+    top: 3px;
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/goto.png', sizingMethod='scale');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+	*position:static;	
+}
+#GotoPoint:hover{
+	background:url(../images/goto-hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/goto-hover.png', sizingMethod='scale');
+	*background:none;
+}
+#SetPoint{
+	background:url(../images/setup.png); 
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:16px; 
+	width:16px; 
+	margin-left:8px;
+	    position: relative;
+    top: 3px;
+	*position:static;	
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/setup.png', sizingMethod='scale');
+	*background:none;
+}
+#SetPoint:hover{
+	background:url(../images/setup-hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/setup-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#ClearPoint{
+	background:url(../images/clear.png); 
+	display:inline-block;
+	*display:inline;
+	*zoom:1;
+	height:16px; 
+	width:16px; 
+	margin-left:6px;
+	position: relative;
+    top: 3px;
+	*position:static;
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/clear.png', sizingMethod='scale');
+	*background:none;
+
+}
+
+#ClearPoint:hover{
+	background:url(../images/clear-hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/clear-hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#RecordSwitch{
+	background:url(../images/record.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:0px;
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/record.png', sizingMethod='scale');
+	*background:none;
+}
+
+#RecordSwitch:hover{	
+	background:url(../images/record_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/record_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+.RecordSwitchHoverStyle{	
+	background:url(../images/record_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/record_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#RecordIngSwitch{
+	background:url(../images/recording.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:0px;	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/recording.png', sizingMethod='scale');
+	*background:none;
+}
+
+RecordIngSwitch:hover{
+	background:url(../images/recording_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/recording_hover.png', sizingMethod='scale');
+	*background:none;
+}
+#PlaybackSwitch{
+	background:url(../images/playback.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:0px;	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/playback.png', sizingMethod='scale');
+	*background:none;
+}
+
+#PlaybackSwitch:hover{
+	background:url(../images/playback_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/playback_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#CaptureSwitch{
+	background:url(../images/capture.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/capture.png', sizingMethod='scale');
+	*background:none;
+}
+#CaptureSwitch:hover{
+	background:url(../images/capture_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/capture_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#MicroOffSwitch{
+	background:url(../images/micro_off.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;	
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/micro_off.png', sizingMethod='scale');
+	*background:none;
+}
+#MicroOffSwitch:hover{
+	background:url(../images/micro_off_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/micro_off_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#MicroOnSwitch{
+	background:url(../images/micro_on.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;	
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/micro_on.png', sizingMethod='scale');
+	*background:none;
+}
+#MicroOnSwitch:hover{
+	background:url(../images/micro_on_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/micro_on_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#VolOffSwitch{
+	background:url(../images/vol_off.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;	
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/vol_off.png', sizingMethod='scale');
+	*background:none;
+}
+
+#VolOffSwitch:hover{
+	background:url(../images/vol_off_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/vol_off_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#VolOnSwitch{
+	background:url(../images/vol_on.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/vol_on.png', sizingMethod='scale');
+	*background:none;
+}
+
+#VolOnSwitch:hover{
+	background:url(../images/vol_on_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/vol_on_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#UnlockSwitch{
+	background:url(../images/unlock.png); 
+	display:inline-block;
+	height:31px; 
+	width:39px; 
+	margin-left:2px;	
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/unlock.png', sizingMethod='scale');
+	*background:none;
+}
+
+#UnlockSwitch:hover{
+	background:url(../images/unlock_hover.png); 
+	/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/unlock_hover.png', sizingMethod='scale');
+	*background:none;
+}
+
+#ImageAdjustLayer{
+/*	border:1px solid #212129;*/
+	margin-top:40px;
+/*	background:#313540;*/
+}
+
+#PlayerCtrLayer{
+/*	border:1px solid #212129;*/
+	margin-top:8px;
+/*	background:#313540;*/
+}
+
+#AdvanceImageAdjustLayer{
+/*	border-bottom:1px solid #212129;*/
+	margin-top:8px;
+}
+
+.arrow {
+    background: url("../images/arrow.png") repeat scroll 0 0 transparent;
+    display: inline-block;
+    height: 9px;
+    margin-left: 185px;
+    margin-top: -30px;
+    width: 5px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/arrow.png', sizingMethod='image');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+}
+.conternLayerStyle{
+	background: none repeat scroll 0 0 #FFFFFF;
+ /*   border: 1px dashed #8FD9FF;*/
+/*    position: relative;
+*/
+}
+
+#ScanSpan{
+	font-size:20px;
+	}
+
+#BrightnessImg{
+	background:url(../images/bright.png);
+	display:inline-block;
+	width:24px;
+	height:24px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/bright.png', sizingMethod='scale');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+}
+
+#HueImg{
+	background:url(../images/hue.png);
+	display:inline-block;
+	width:24px;
+	height:24px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/hue.png', sizingMethod='scale');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+}
+
+#ContrastImg{
+	background:url(../images/contra.png);
+	display:inline-block;
+	width:24px;
+	height:24px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/contra.png', sizingMethod='scale');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+}
+
+#SaturationImg{
+	background:url(../images/saturation.png);
+	display:inline-block;
+	width:24px;
+	height:24px;
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/saturation.png', sizingMethod='scale');
+	*background:none;
+	*display:inline;
+	*zoom:1;
+}
+
+#LogoImg{
+	background: url(../images/satvision.png);
+	display: inline-block;
+	height: 48px;
+	width: 169px;
+	margin-left:0px;	
+	margin-top:2px;	
+		/****************IE6*****************/
+	*filter:progid:DXImageTransform.Microsoft.AlphaImageLoader( src='images/satvision.png', sizingMethod='scale');
+	*background:none;
+}
+
+#LogoutLayer{float:right; margin-right: 30px;margin-top: 14px; display:none;}
+#LogoLayer{float:left; margin-left: 5px;margin-top: 0px; display:none;}
+#LogoutLayer a{text-decoration:underline;color:#FFF;}
+#LogoutLayer label{text-decoration:underline;color:#FFF;}
+#LogoutLayer a:hover{color:#F00}
+
+.AdvanceLayerStyle{display:none; margin:0 auto; width:1003px; height:725px; background:#FFF; padding-left:10px;}
+.ApplyLayerStyle{position:absolute; bottom:10px;left:250px;}
+.CancelLayerStyle{position:absolute; bottom:10px;left:400px;}
+#WeekmodeLayer{margin:0 auto; margin-top:10px; width:595px;  display:none;}
+#WorkmodeLayer{margin:0 auto;  margin-top:10px; width:635px; display:none;}
+#WeekmodeLayer td{vertical-align:middle; text-align:center; width:175px;}
+#WorkmodeLayer td{vertical-align:middle; text-align:center; width:175px;}
+#logLayer tr td {vertical-align: middle;text-align: center;height:20px;}
+
+.SearchResultTableTrOdd{background:#1e2128}
+.SearchResultTableTrEven{background:#2c3037}	
+.SearchResultTableTrHover{background:#0077C2}	
+#SearchResultHead{width:100%;border-collapse: collapse; background:#B0B0B0;}
+#SearchListLayer{margin:5px 10px;border:1px #9097A9 solid; width:737px;}
+#SDBrowerLayer{margin: 10px;width: 600px;}	
+#SDLayer{border:1px solid  #9097a9; margin-left:19px; width:620px; margin-bottom:10px;}
+#OCXCtlLayer{
+	float: left;
+	position: relative;
+	top: 0px;
+	display: none;
+	right: 10px;
+	z-index: 10;
+	left: 5px;
+}	
+     
+    
+	

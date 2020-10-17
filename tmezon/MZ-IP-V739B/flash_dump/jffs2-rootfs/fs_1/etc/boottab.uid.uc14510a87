@@ -1,0 +1,55 @@
+#!/bin/sh
+
+chmod g+s,g-x  /dev/mtdblock4
+mount -t jffs2 /dev/mtdblock3 /mnt/config
+mount tmpfs /tmpfs -t tmpfs -o size=16m
+
+rm -rf /etc/network
+ln -fs /mnt/config/network /etc/network
+
+ifconfig eth0 up
+echo eth0 > /tmpfs/netdev
+
+BOOTTAB_PIDFILE=/tmpfs/boottab.pid
+rm -f $BOOTTAB_PIDFILE
+
+. /etc/sensor.conf
+cd /komod
+./load3516cv300 -i -sensor $sensortype -offline 
+sleep 1
+
+syslogd -m 0 -O /tmpfs/syslog.txt -S -s 100 -b 0 &
+LOGINFO="`date` system start!!!"
+echo "$LOGINFO" >> /tmpfs/syslog.txt
+
+/bin/vs/cgi-bin/net_serv.sh &
+sleep 1
+
+. /mnt/config/ddns_enable.conf
+enable=${DDNS_ENABLE}
+if [ $enable == 1 ];then
+	echo "oooooooo: start ddns."
+	/usr/sbin/ddns/ddns-stop 
+	/usr/sbin/ddns/ddns-start & 
+fi
+/usr/sbin/ddns/ddns-update.sh &
+sleep 1
+
+/etc/upgradeforpara.sh 1
+sleep 1
+
+UID=`paraconf r 1 P2P_ID`
+if [ "$UID" == "uc14510a87" ]
+then
+	echo "$UID was exist!!!"
+else
+	paraconf w 1 P2P_ID uc14510a87
+fi
+
+cd /bin/vs
+./vs_server -sensortype $sensortype
+
+echo "oooooooo: app has stopped !!!"
+sync
+reboot
+

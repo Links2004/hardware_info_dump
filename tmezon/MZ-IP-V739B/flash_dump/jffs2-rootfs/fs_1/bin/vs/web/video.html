@@ -1,0 +1,207 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset =UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT"/>
+<title></title>
+<!--------------------网页需要的CSS ------------------->
+<link rel="stylesheet" type="text/css" href="css/base-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.custom.css" />
+<link rel="stylesheet" type="text/css" href="css/userdefine-jquery-ui.css"/>
+
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="css/IE6.css" />
+<![endif]-->
+
+<!--------------------网页自身的CSS------------------->
+<style type="text/css"></style>
+
+<!--------------------网页需要的脚本 ------------------->
+<script  type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="js/common.js"></script>
+<script  type="text/javascript" src="js/jquery.ui.core.js"></script>
+<script  type="text/javascript" src="js/jquery.ui.widget.js"></script>
+<script  type="text/javascript" src="js/jquery.ui.progressbar.js"></script>
+<script  type="text/javascript" src="js/video.js"></script>
+
+<!--------------------CGI 命令------------------->
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getvencattr&-chn=011" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getvencattr&-chn=012" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/bconf.cgi?cmd=bconf.cgi&-action=get" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getviattr" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getaencattr&-chn=011" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getaencattr&-chn=012" TYPE="text/javascript"></SCRIPT>
+<!--------------------网页的消息函数------------------->
+<script language="javascript">
+
+</script>
+</head>
+<body  class="content" style="display:none;">
+<!--start content 右侧内容-->
+<div>
+    <form name="form1">
+        <div style=" padding-top:10px;">
+            <h4 id="MainstreamSpan">Main stream </h4>
+            <!----------------------------Resolution---------------------------------------------->
+            <div ><span id="ResolutionSpan">Resolution:</span>
+                <select id="MainStreamSizeSelect"  disabled>
+                    <option value="1080">1920x1080</option>
+                    <option value="960">1280x960</option>
+                    <option value="720">1280x720</option>
+                    <option value="320">640x320</option>
+                    <option value="240">320x240</option>
+					  <option value="576">704x576</option>
+                       <option value="480">704x480</option>
+                </select>
+                <label id="ViewSizeChangeRebootMsgLabel"></label>
+            </div>
+            <!--------------------------Bit rate------------------------------------------------>
+            <div ><span id="BitrateSpan">Bit rate:</span>
+                <select id="MainStreamBitSelect" >
+                    <option value="128">128</option>
+                    <option value="256">256</option>
+                    <option value="384">384</option>
+                    <option value="512">512</option>
+                    <option value="768">768</option>
+                    <option value="1024">1024</option>
+                    <option value="1536">1536</option>
+                    <option value="2048">2048</option>
+                    <option value="3072">3072</option>
+                    <option value="4096">4096</option>
+                    <option value="5120">5120</option>
+                    <option value="6144">6144</option>
+                    <option value="8192">8192</option>
+                    <option value="1" id="MainStreamUserDefineSpan">User Define</option>
+                </select>
+                <input id="MainStreamUserDefineInput" type="text" maxlength="4" size="3" style="display:none" />
+            </div>
+            <!-----------------------------Image Quality---------------------------------------------> 
+            <!--div ><span id="ImageQualitySpan">Image Quality: </span>
+                <select name="qualityselect">
+                    <option value="1" id="QualityVeryHighSpan">Very High</option>
+                    <option value="2" id="QualityHighSpan">High</option>
+                    <option value="3" id="QualityNormalSpan">Normal</option>
+                    <option value="4" id="QualityLowSpan">Low</option>
+                    <option value="5" id="QualityVeryLowSpan">Very Low</option>
+                </select>
+            </div--> 
+            <!------------------------------Maximum frame-------------------------------------------->
+            <div ><span id="MaximumframeSpan">Maximum frame:</span>
+                <select id="MainStreamFpsSelect" size="1">
+                </select>
+            </div>
+            <!---------------------------------Video quality control-----------------------------------------> 
+            <!--div ><span id="VideoqualitycontrolSpan">Video&nbsp;quality&nbsp;control: </span>
+                <input type="radio" name="qualityradio" value="radiobutton" id="frameratefirst">
+                <label for="frameratefirst" id="FrameratefirstSpan">Frame rate first </label>
+                <input type="radio" name="qualityradio" value="radiobutton" id="qualityfirst">
+                <label for="qualityfirst" id="QualityfirstSpan">Quality first</span> </label>
+            </div--> 
+
+            <!--------------------------Norm------------------------------------------------> 
+            <!--div ><span id="NormSpan">Norm:</span>
+        <SELECT NAME="vinorm"  disabled>
+          <OPTION VALUE="0"> PAL </OPTION>
+          <OPTION VALUE="1"> NTSC </OPTION>
+        </SELECT>
+      </div--> 
+
+            <!--------------------------Bit Rate Ctr------------------------------------------------>
+            <div> <span id="MainStreamBitRateTypeSpan">Bit Rate Type:</span>
+                <select id="MainStreamBitRateCtrSelect">
+                    <option id="MainStreamCBR" value="1">CBR</option>
+                    <option id="MainStreamVBR" value="2">VBR</option>
+                    <option id="MainStreamFIXQP" value="4">FixQp</option>
+                </select>
+                 <select id="MainStreamFIXQPLevel">
+                    <option id="MainStreamFIXQPLevel1" value="1" selected="selected">Very High</option>
+                    <option id="MainStreamFIXQPLevel2" value="2">High</option>
+                    <option id="MainStreamFIXQPLevel3" value="3">Normal</option>
+                    <option id="MainStreamFIXQPLevel4" value="4">Low</option>
+                    <option id="MainStreamFIXQPLevel5" value="5">Very Low</option>
+                </select>
+            </div>
+            
+            
+             <!--------------------------GOP------------------------------------------------>
+            <div> <span id="MainStreamGopSpan">Gop:</span>
+              <input type="text" id="MainStreamGopInput" />
+                 <label id="MainStreamGopInputTips" style="margin:0px;"></label>
+            </div>
+               <!--------------------------Audio------------------------------------------------>
+            <div> <span id="MainStreamAudioSpan">Audio:</span>
+             <input  type="radio" name="MainStreamAudioGrp" value="1"/><label id="MainStreamAudioGrpOn">On</label>
+         	<input  type="radio" name="MainStreamAudioGrp" value="0"/><label id="MainStreamAudioGrpOff" >Off</label>
+            </div>
+        </div>
+        <div class="cutoffrule"></div>
+        <div style=" padding-top:10px;">
+            <!-- pyu: -->
+              <h4 id="MobileSpan">Sub Stream</h4>
+            <!-----------------------------Resolution--------------------------------------------->
+            <div><span id="ResolutionSpan">Resolution:</span>
+                <select id="MobileStreamSizeSelect" size="1" disabled>
+                    <option value="320">320x240</option>
+                    <option value="180">320x180</option>
+                    <option value="120">160x120</option>
+                </select>
+            </div>
+            <!------------------------------Quality-------------------------------------------->
+            <div><span id="QualitySpan">Quality:</span>
+                <select id="MobileStreamImageQuality">
+                    <option value="1" id="QualityVeryHighSpan">Very High</option>
+                    <option value="2" id="QualityHighSpan">High</option>
+                    <option value="3" id="QualityNormalSpan">Normal</option>
+                    <option value="4" id="QualityLowSpan">Low</option>
+                    <option value="5" id="QualityVeryLowSpan">Very Low</option>
+                </select>
+            </div>
+            <!--------------------------------------------------------------------------> 
+        </div>
+        <!---end Mobile stream---->
+
+
+    </form>
+</div>
+
+<div id="MsgLayer" style="display:none; margin:10px auto; width:600px">
+  <P></p>
+  <P></P>
+  <P  style="margin-left:120px;font-size:14px;" id="Msg"></p>
+  <div id="progressbar" style="font-size:16px;height:16px;"> </div>
+</div>
+
+<!------------------------------需要提交的表单----------------------------->
+<div style="display:none">
+    <form name="form2" method="post">
+        <input name="cmd" type="hidden" value="setmobilesnapattr">
+        <input name="cururl" type="hidden">
+        <input name="cmd" type="hidden" value="setvencattr">
+        <input id="Form2Chn" name="chn" type="hidden">
+        <input id="Form2Bps" name="bps" type="hidden">
+        <input id="Form2Fps" name="fps" type="hidden">
+        <input id="Form2BrMode" name="brmode" type="hidden">
+        <input id="Form2FixQpLevel" name="fixqpLevel" type="hidden" disabled="disabled">
+         <input id="Form2Gop" name="gop" type="hidden">
+
+        <input name="cmd" type="hidden" value="setvencattr">
+        <input id="Form2MobileChn" name="chn" type="hidden">
+         <input id="Form2MobileImageGrade" name="mobilequality" type="hidden">
+         
+        <input id="Form2SetViAttrCmd" type="hidden"  disabled="disabled">
+        <input id="Form2VideoMode" type="hidden" disabled="disabled">
+        <input id="Form2ViNorm" type="hidden" disabled="disabled">
+        
+         <input name="cmd" type="hidden" value="setaencattr">
+         <input id="Form2MainStreamAudioChn" name="chn" type="hidden">
+         <input id="Form2MainStreamIsGetAudio" name="isgetaudio" type="hidden">    
+    </form>
+</div>
+<!------------------------------提交按钮----------------------------->
+<div class="ApplyLayerStyle"><a id="apply" href="#">Apply</a> </div>
+<div class="CancelLayerStyle"><a id="cancel" href="#">Cancel</a> </div>
+</body>
+</html>

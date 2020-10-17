@@ -1,0 +1,50 @@
+[user0]                                          
+username                       = "Admin          "
+password                       = "888888"
+authtype                       = "255            "
+authgroup                      = "Admin          "
+[user1]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user2]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user3]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user4]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user5]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user6]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user7]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user8]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "
+[user9]                                          
+username                       = "               "
+password                       = "               "
+authtype                       = "0              "
+authgroup                      = "               "

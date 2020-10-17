@@ -1,0 +1,14 @@
+#!/bin/sh
+modprobe nls_base;
+modprobe nls_cp437;
+modprobe fat;
+modprobe vfat;
+modprobe nls_iso8859-1;
+modprobe hidmac;
+modprobe sd_mmc_sdio;
+modprobe mmc_core;
+modprobe himci;	
+modprobe mmc_block;
+modprobe as-iosched;
+sleep 2
+echo "anticipatory" > /sys/block/mmcblk0/queue/scheduler

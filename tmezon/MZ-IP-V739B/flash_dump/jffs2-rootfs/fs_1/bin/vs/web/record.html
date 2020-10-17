@@ -1,0 +1,166 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset =UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT"/>
+<meta http-equiv="X-UA-Compatible" content="IE=7"/>
+<title></title>
+<!--------------------网页需要的CSS ------------------->
+<link rel="stylesheet" type="text/css" href="css/base-ui.css" />
+<link rel="stylesheet" type="text/css" href="css/jquery-ui.custom.css" />
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="css/IE6.css" />
+<![endif]-->
+<!--------------------网页自身的CSS------------------->
+<style type="text/css">
+</style>
+<!--------------------网页需要的脚本 ------------------->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="js/common.js"></script>
+
+<!--------------------CGI 命令------------------->
+<script language="JavaScript1.2" src="cgi-bin/hi3510/param.cgi?cmd=getrecattr&-chn=11" type="text/javascript"></script>
+<script language="JavaScript1.2" src="cgi-bin/hi3510/param.cgi?cmd=getsdcareInfo" type="text/javascript"></script>
+<!--------------------网页的消息函数------------------->
+<script language="javascript">
+
+/*多语言加载*/
+$(document).ready(function(e) {	
+   LoadLanguage();
+
+setTimeout(function(){$("body").css("display", "block");}, 100);
+});
+
+function on_load()
+{
+	if(Number(filetime) == 0)
+	{
+		$("#filetime").val(0);
+	}
+	else if((filetime > 0)&&(filetime <= 60))
+	{
+		$("#filetime").val(60);
+	}
+	else if((filetime > 60)&&(filetime <= 300))
+	{
+		$("#filetime").val(300);
+	}
+	else if((filetime > 300)&&(filetime <= 600))
+	{
+		$("#filetime").val(600);
+	}
+	else if((filetime > 600)&&(filetime <= 900))
+	{
+		$("#filetime").val(900);
+	}
+	else if((filetime > 900)&&(filetime <= 1200))
+	{
+		$("#filetime").val(1200);
+	}
+	else
+	{
+		$("#filetime").val(1800);
+	}
+		
+	if(Number(manualrecstart) == 1)
+	{
+		$("#manualrecOn").attr('checked', "true");	
+		$("#manualrecOff").removeAttr("checked");
+	}
+	else
+	{
+		$("#manualrecOff").attr('checked', "true");	
+		$("#manualrecOn").removeAttr("checked");
+	}
+
+	if(Number(rectype) == 1)
+	{
+		$("#RecPictureOn").attr('checked', "true");	
+		$("#RecVideoOn").removeAttr("checked");
+	}
+	else
+	{
+		$("#RecVideoOn").attr('checked', "true");	
+		$("#RecPictureOn").removeAttr("checked");
+	}
+}
+
+function do_submit()
+{
+	var form1=document.form1;
+	var form=document.form2;
+	
+	form.cururl.value =document.URL ;
+	
+	$("#Form2Chn").attr('name', "-chn");
+	$("#Form2Chn").attr('value', "11");
+	
+	$("#Form2FileTime").attr('name', "-filetime");
+	$("#Form2FileTime").attr('value',  $("#filetime").val());
+	
+	if(form1.RecordTypegrp[0].checked == true)
+		{
+		$("#Form2RecTypecmd").attr('name', "-rectype");
+		$("#Form2RecTypecmd").attr('value', "0");
+		}
+		else 
+		{
+		$("#Form2RecTypecmd").attr('name', "-rectype");
+		$("#Form2RecTypecmd").attr('value', "1");
+	}
+	
+	form.action="cgi-bin/hi3510/param.cgi";	
+	form.submit();
+}
+
+</script>
+</head>
+<body onLoad="on_load()" class="content" style="display:none;">
+<!--start content 右侧内容-->
+<div style="display:block">
+ <form name="form1">
+    <h4 id="RecordSpan" style="display:none" >Record:</h4>
+    <div style="display:none"><span id="ManualRecordSpan">Manual Record:</span>
+    <input  type="radio" id="manualrecOn" name="manualrecgrp" /><label  id=" manualrecOnSpan" for="manualrecOn">On</label>
+    <input  type="radio" id="manualrecOff" name="manualrecgrp"/><label id=" manualrecOffSpan" for="manualrecOff">Off</label>
+    <label id="RecordMsg"  style="color:#F00;"></label>
+    </div>
+    <div style="display:none"> <span id="FileTimeSpan">File Time:</span>
+      <select id="filetime">
+       <option class="optionspan" value="0" id="Filetime0Span">close</option>
+      <option class="optionspan" value="60" id="Filetime1Span">1</option>
+      <option class="optionspan" value="300" id="Filetime5Span">5</option>
+        <option class="optionspan" value="600" id="Filetime10Span">10</option>
+        <option class="optionspan" value="900" id="Filetime15Span">15</option>
+        <option class="optionspan" value="1200" id="Filetime20Span">20</option>
+        <option class="optionspan" value="1800" id="Filetime30Span">30</option>
+      </select>
+       <span id="MinuteSpan">minute</span>
+    </div>
+    <h4 id="RecordTypeSpan" >Press device button record type:</h4>
+    <div><span id="RecordTypeDefineSpan">  </span>
+    <input  type="radio" id="RecVideoOn" name="RecordTypegrp"/><label id=" RecVideoOnSpan" for="RecVideoOn">Record video</label>
+    <input  type="radio" id="RecPictureOn" name="RecordTypegrp" /><label  id=" RecPictureOnSpan" for="RecPictureOn">Snap</label>
+   	</div>
+  </form>  
+</div>
+<!------------------------------需要提交的表单----------------------------->
+<div style="display:none">
+  <form name="form2">
+      <input name="cmd" type="hidden" value="setrecattr">
+    <input name="cururl" type="hidden">   
+	<input id="Form2Chn"  type="hidden"/>			
+    <input id="Form2FileTime" type="hidden">
+    <input id="Form2ManaulReccmd" type="hidden" value="setrecattr">
+	<input id="Form2RecTypecmd" type="hidden" value="setrecattr">
+    <input id="Form2ManualRecChn"  type="hidden"/>			
+  </form>
+</div>
+<!------------------------------提交按钮----------------------------->
+<div class="ApplyLayerStyle"> <a id="apply" href="#" onClick="do_submit()">Apply</a> </div>
+<div class="CancelLayerStyle"><a id="cancel" href="#" onClick="JavaScript:location.reload(true)">Cancel</a> </div>
+</body>
+</html>

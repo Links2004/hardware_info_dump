@@ -1,0 +1,95 @@
+﻿<html>
+<head>
+<title></title>
+<script type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="js/common.js"></script>
+<script language="javascript">
+	function CloseWin(bCheckPass)
+	{
+		if (bCheckPass)
+		{
+//			if (document.pwdform.pwd.value == "")
+//			{
+//				alert("Please enter a valid password");
+//				document.pwdform.pwd.focus();
+//				return;
+//			}
+//			else
+//			{
+				window.returnValue = document.pwdform.pwd.value;
+//			}
+		}
+ 
+		window.close(); 
+	}
+
+	function listen()
+	{
+		var aa = document.getElementById('text');
+		try
+		{
+			aa.addEventListener('keydown',submitByEnter,true);
+		}
+		catch (e)
+		{
+			aa.attachEvent('onkeydown',submitByEnter);
+		}
+		
+		 var language = getCookie("language");
+		 if(language == "en")
+		 {
+			document.getElementById('btnOK').value = "OK";
+			document.getElementById('btnCancel').value = "Cancel";
+		 }else if(language == "zh-cn"){
+			document.getElementById('btnOK').value = "确定";
+			document.getElementById('btnCancel').value = "取消";
+		 }else if(language == "tw"){
+			document.getElementById('btnOK').value = "確定";
+			document.getElementById('btnCancel').value = "取消";
+		 }else if(language == "pt"){
+			document.getElementById('btnOK').value = "Confirmar";
+			document.getElementById('btnCancel').value = "Cancelar";
+		 }else if(language == "es"){
+			document.getElementById('btnOK').value = "Confirmar";
+			document.getElementById('btnCancel').value = "Cancelar";
+		 }else if(language == "ru"){
+			document.getElementById('btnOK').value = "Подтвердить";
+			document.getElementById('btnCancel').value = "Отмена";
+		 }else{
+			document.getElementById('btnOK').value = "OK";
+			document.getElementById('btnCancel').value = "Cancel";
+		 }
+	}
+     
+	function submitByEnter(e)
+	{
+		e = e||window.event;
+		var key = e?(e.charCode||e.keyCode):0;
+		if(key == 13)
+		{
+			CloseWin(true);
+		}
+	}
+
+	$(document).ready(function(e) {	
+		LoadLanguage();
+	});
+
+</script>
+</head>
+<body onload="listen();">
+	<form name="pwdform">
+		<table>
+			<tr>
+				<td><span id="EnterPassword">Please enter the password:</span></td>
+			</tr>
+			<tr>
+				<td><input style="width:480px;" type="password" name="pwd" id="text"></td>
+			</tr>
+			<tr>
+				<td align="left"><input type="button" id="btnOK" onclick="CloseWin(true)" value="OK"><input type="button" id="btnCancel" onclick="CloseWin(false)" value="Cancel"></td>
+			</tr>
+		</table>
+	</form>
+</body>
+</html>

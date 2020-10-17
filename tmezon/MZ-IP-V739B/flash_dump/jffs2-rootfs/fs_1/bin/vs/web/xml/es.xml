@@ -1,0 +1,1026 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--lengua española西班牙语-->
+<es>
+<indexhtml>
+<SimplifiedChineseSpan>简体中文</SimplifiedChineseSpan>
+<EnglishSpan>English</EnglishSpan>
+<TraditionalChineseSpan>繁體中文</TraditionalChineseSpan>
+<PortugueseSpan>Português</PortugueseSpan>
+<SpanishSpan>Español</SpanishSpan>	
+<RussianSpan>Русский</RussianSpan>
+<HeaderHomeSpan>casa</HeaderHomeSpan>
+<HeaderMediaSpan>medios</HeaderMediaSpan>
+<HeaderReplaySpan>repetición</HeaderReplaySpan>
+<HeaderParametersSpan>Parámetros</HeaderParametersSpan>
+<HeaderSystemSpan>sistema</HeaderSystemSpan>
+<ScanSpan>cruzeiro</ScanSpan>
+<PtzPointSpan>predefinida:</PtzPointSpan>
+<HueSpan>Chroma:</HueSpan>
+<BrightnessSpan>brillo:</BrightnessSpan>
+<ContrastSpan>contrastar:</ContrastSpan>
+<SaturationSpan>saturación:</SaturationSpan>
+<FlipSpan>capirotazo:</FlipSpan>
+<MirrorSpan>espejo:</MirrorSpan>
+<PowerfreqSpan>frecuencia de red:</PowerfreqSpan>
+<MainPageSceneSpan>escena:</MainPageSceneSpan>
+<AutoSpan>automático</AutoSpan>
+<IndoorSpan>interior</IndoorSpan>
+<OutdoorSpan>al aire libre</OutdoorSpan>
+<FillOnSpan>abierto</FillOnSpan>
+<FillOffSpan>cerca</FillOffSpan>
+<MirrorOnSpan>abierto</MirrorOnSpan>
+<MirrorOffSpan>cerca</MirrorOffSpan>
+<UpdateSpan>Actualizar</UpdateSpan>
+<DefaultSpan>defecto</DefaultSpan>
+<PlayerSpan>jugador:</PlayerSpan>
+<StreamSpan>corriente:</StreamSpan>
+<MainPageImageSpan>imagen:</MainPageImageSpan>
+<FitSizeSpan>tamaño adecuado</FitSizeSpan>
+<SrcSizeSpan>tamaño original</SrcSizeSpan>
+<MainFlowSpan>Flujo principal</MainFlowSpan>
+<MinorFlowSpan>Corriente secundaria</MinorFlowSpan>
+<DownloadPlayerSpan>Descargar reproductor</DownloadPlayerSpan>
+<LoginDownloadPlayerSpan>Descargar reproductor</LoginDownloadPlayerSpan>
+<DownloadOCXSpan>Descarga de Control</DownloadOCXSpan>
+<LoginDownloadOCXSpan>Descarga de Control</LoginDownloadOCXSpan>
+<LogoutSpan>cancelación</LogoutSpan>
+<UsernameSpan>usuario:</UsernameSpan>
+<PasswordSpan>contraseña:</PasswordSpan>
+<LoginLanguageSpan>idioma:</LoginLanguageSpan>
+<LoginEnterSpan>login</LoginEnterSpan>
+<AutologinSpan>Auto login</AutologinSpan>
+<LoginMainFlowSpan>Flujo principal</LoginMainFlowSpan>
+<LoginMinorFlowSpan>Corriente secundaria</LoginMinorFlowSpan>
+<LoginStreamSpan>corriente:</LoginStreamSpan>
+<QVSpan>equipo</QVSpan>
+<HomeSpan>casa</HomeSpan>
+<SystemSetSpan>sistema</SystemSetSpan>
+<AboutSpan>acerca de</AboutSpan>
+<MediaTitleSpan>medios</MediaTitleSpan>
+<ImageSpan>imagen</ImageSpan>
+<VideoSpan>vídeo</VideoSpan>
+<AdvanceSpan>avanzado</AdvanceSpan>
+<EventTitleSpan>evento</EventTitleSpan>
+<NetWorkTitleSpan>red</NetWorkTitleSpan>
+<BasicSettingsSpan>Ajustes básicos</BasicSettingsSpan>
+<DDNSSpan>DDNS</DDNSSpan>
+<UserSpan>usuario</UserSpan>
+<MobileSpan>OSD</MobileSpan>
+<EmailSpan>buzón</EmailSpan>
+<MDSpan>Detección de Movimiento</MDSpan>
+<AlarmInSpan>Entrada y salida de alarma</AlarmInSpan>
+<AlarmOutSpan>salida de alarma</AlarmOutSpan>
+<AutoSnapSpan>captura llamada</AutoSnapSpan>
+<SystemTitleSpan>sistema</SystemTitleSpan>
+<LanguageSpan>idioma</LanguageSpan>
+<TimeSpan>Ajustes de tiempo</TimeSpan>
+<InitSpan>inicialización</InitSpan>
+<DeviceinfoSpan>deviceinfo</DeviceinfoSpan>
+<LogSpan>revista</LogSpan>
+<IDCardSpan>Ajustes de IDCard</IDCardSpan>
+<PTZSpan>PTZ</PTZSpan>
+<ODSpan>alarma cubierta</ODSpan>
+<RecordSpan>vídeo</RecordSpan>
+<StorageSpan>almacenamiento</StorageSpan>
+<DownLoadPlayerMsg>Por favor, instale los controles, volver a abrir la página después de una instalación correcta!</DownLoadPlayerMsg>
+<HueImgTitile>Chroma</HueImgTitile>
+<BrightnessImgTitile>brillo</BrightnessImgTitile>
+<ContrastImgTitle>contrastar</ContrastImgTitle>
+<SaturationImgTitile>saturación</SaturationImgTitile>
+<RecordSwitchTitile>Abra el vídeo</RecordSwitchTitile>
+<RecordIngSwitchTitile>¿El registro</RecordIngSwitchTitile>
+<CaptureSwitchTitile>captura</CaptureSwitchTitile>
+<MicroOnSwitchTitile>Abrir talkback</MicroOnSwitchTitile>
+<MicroOffSwitchTitile>Cerrar talkback</MicroOffSwitchTitile>
+<VolOnSwitchTitile>Open Sound</VolOnSwitchTitile>
+<VolOffSwitchTitile>En off</VolOffSwitchTitile>
+<GotoPointTitile>Jump</GotoPointTitile>
+<SetPointTitile>establecer</SetPointTitile>
+<ClearPointTitile>eliminar</ClearPointTitile>
+<NoAuthErrorMsg>No permission</NoAuthErrorMsg>
+<LoginCheckErrorMsg>Contraseña o nombre de usuario de error!</LoginCheckErrorMsg>
+<HltalmproxySpan>configuración de plataforma</HltalmproxySpan>
+<FocusSpan>reunir</FocusSpan>
+<ZoomSpan>Ampliar</ZoomSpan>
+<UnLockMsg>Por favor introduce la contraseña de desbloqueo</UnLockMsg>
+<UnLockSuccessMsg>tener éxito</UnLockSuccessMsg>
+<UnLockFaileMsg>fracasado</UnLockFaileMsg>
+<LoginDoorSpan>puerta:</LoginDoorSpan>
+<LoginDoor1Span>puerta1</LoginDoor1Span>
+<LoginDoor2Span>puerta2</LoginDoor2Span>
+<LoginCam1Span>CAM1</LoginCam1Span>
+<LoginCam2Span>CAM2</LoginCam2Span>
+<DoorSpan>puerta:</DoorSpan>
+<Door1Span>puerta1</Door1Span>
+<Door2Span>puerta2</Door2Span>
+<Cam1pan>CAM1</Cam1pan>
+<Cam2pan>CAM2</Cam2pan>
+<Phone>Teléfono móvil:</Phone>
+<IE>IE(PC):</IE>
+<Title>Número de usuarios conectados</Title>
+<HZ50Span>50HZ</HZ50Span>
+<HZ60Span>60HZ</HZ60Span>
+</indexhtml>
+
+<mainpagehtml>
+<QVSpan>equipo</QVSpan>
+<HomeSpan>casa</HomeSpan>
+<SystemSetSpan>sistema</SystemSetSpan>
+<AboutSpan>acerca de</AboutSpan>
+<SizeSpan>tamaño</SizeSpan>
+<PTZSpan>PTZ:</PTZSpan>
+<ZOOMSpan>agrandar</ZOOMSpan>
+<FOUCESpan>foco</FOUCESpan>
+<IRISSpan>abertura</IRISSpan>
+<SpeedSpan>velocidad</SpeedSpan>
+</mainpagehtml>
+
+<abouthtml>
+<QVSpan>equipo</QVSpan>
+<HomeSpan>casa</HomeSpan>
+<SystemSetSpan>sistema</SystemSetSpan>
+<AboutSpan>acerca de</AboutSpan>
+</abouthtml>
+
+<systemsethtml>
+<QVSpan>equipo</QVSpan>
+<HomeSpan>casa</HomeSpan>
+<SystemSetSpan>sistema</SystemSetSpan>
+<AboutSpan>acerca de</AboutSpan>
+<MediaSpan>medios</MediaSpan>
+<ImageSpan>imagen</ImageSpan>
+<VideoSpan>vídeo</VideoSpan>
+<AdvanceSpan>avanzado</AdvanceSpan>
+<EventSpan>evento</EventSpan>
+<NetWorkSpan>red</NetWorkSpan>
+<BasicSettingsSpan>Ajustes básicos</BasicSettingsSpan>
+<DDNSSpan>DDNS</DDNSSpan>
+<UserSpan>usuario</UserSpan>
+<MobileSpan>móvil</MobileSpan>
+<EmailSpan>buzón</EmailSpan>
+<MDSpan>Detección de Movimiento</MDSpan>
+<AlarmInSpan>entrada de alarma</AlarmInSpan>
+<AlarmOutSpan>salida de alarma</AlarmOutSpan>
+<AutoSnapSpan>captura llamada</AutoSnapSpan>
+<SystemSpan>sistema</SystemSpan>
+<LanguageSpan>idioma</LanguageSpan>
+<TimeSpan>Ajustes de tiempo</TimeSpan>
+<InitSpan>inicialización</InitSpan>
+<DeviceinfoSpan>deviceinfo</DeviceinfoSpan>
+<LogSpan>revista</LogSpan>
+<PTZSpan>PTZ</PTZSpan>
+<ODSpan>alarma cubierta</ODSpan>
+<RecordSpan>vídeo</RecordSpan>
+<StorageSpan>almacenamiento</StorageSpan>
+</systemsethtml>
+
+<displayhtml>
+<HueSpan>Chroma:</HueSpan>
+<BrightnessSpan>brillo:</BrightnessSpan>
+<ContrastSpan>contrastar:</ContrastSpan>
+<SaturationSpan>saturación:</SaturationSpan>
+<FlipSpan>voltear verticalmente:</FlipSpan>
+<MirrorSpan>voltear horizontalmente:</MirrorSpan>
+<PowerfreqSpan>frecuencia:</PowerfreqSpan>
+<SaveSpan>guardar</SaveSpan>
+<ReloadSpan>sobrecargado</ReloadSpan>
+<DefaultSpan>Restaurar valores predeterminados</DefaultSpan>
+<FillOnSpan>abierto</FillOnSpan>
+<FillOffSpan>cerca</FillOffSpan>
+<MirrorOnSpan>abierto</MirrorOnSpan>
+<MirrorOffSpan>cerca</MirrorOffSpan>
+</displayhtml>
+
+<videohtml>
+<MainstreamSpan>Flujo principal:</MainstreamSpan>
+<ResolutionSpan>resolución:</ResolutionSpan>
+<BitrateSpan>velocidad:</BitrateSpan>
+<ImageQualitySpan>Calidad de imagen:</ImageQualitySpan>
+<QualityVeryHighSpan>Optimal</QualityVeryHighSpan>
+<QualityHighSpan>bueno</QualityHighSpan>
+<QualityNormalSpan>bueno</QualityNormalSpan>
+<QualityLowSpan>general</QualityLowSpan>
+<QualityVeryLowSpan>bajo</QualityVeryLowSpan>
+<MaximumframeSpan>La frecuencia máxima de cuadros:</MaximumframeSpan>
+<VideoqualitycontrolSpan>control de calidad:</VideoqualitycontrolSpan>
+<FrameratefirstSpan>Frame Rate Prioridad</FrameratefirstSpan>
+<QualityfirstSpan>Calidad Prioridad</QualityfirstSpan>
+<NormSpan>formato:</NormSpan>
+<SubstreamSpan>Ajustes pequeño arroyo:</SubstreamSpan>
+<SubResolutionSpan>resolución:</SubResolutionSpan>
+<SubBitrateSpan>velocidad:</SubBitrateSpan>
+<SubImageQualitySpan>Calidad de imagen:</SubImageQualitySpan>
+<SubImageQualityVeryHighSpan>Optimal</SubImageQualityVeryHighSpan>
+<SubQualityHighSpan>bueno</SubQualityHighSpan>
+<SubQualityNormalSpan>bueno</SubQualityNormalSpan>
+<SubQualityLowSpan>general</SubQualityLowSpan>
+<SubQualityVeryLowSpan>bajo</SubQualityVeryLowSpan>
+<SubMaximumframeSpan>La frecuencia máxima de cuadros:</SubMaximumframeSpan>
+<SubVideoqualitycontrolSpan>control de calidad:</SubVideoqualitycontrolSpan>
+<SubFrameratefirstSpan>Frame Rate Prioridad</SubFrameratefirstSpan>
+<SubQualityfirstSpan>Calidad Prioridad</SubQualityfirstSpan>
+<SubNormSpan>formato:</SubNormSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<InputErrorMsg>La velocidad de bits debe ser menor que el tamaño de la pantalla.</InputErrorMsg>
+<MobileSpan>Mobile Stream:</MobileSpan>
+<ResolutionSpan>resolución:</ResolutionSpan>
+<UsernameSpan>nombre de usuario:</UsernameSpan>
+<PasswordSpan>contraseña:</PasswordSpan>
+<PortSpan>puerto:</PortSpan>
+<QualitySpan>calidad:</QualitySpan>
+<QualityVeryHighSpan>Optimal</QualityVeryHighSpan>
+<QualityHighSpan>bueno</QualityHighSpan>
+<QualityNormalSpan>bueno</QualityNormalSpan>
+<QualityLowSpan>general</QualityLowSpan>
+<QualityVeryLowSpan>bajo</QualityVeryLowSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<PortErrorMsg>Por favor introduce el puerto del teléfono!</PortErrorMsg>
+<PortInputMsg>carácter no válido!</PortInputMsg>
+<PortPortErrorMsg>Puerto no es válido, debe ser(1-65535)</PortPortErrorMsg>
+<SubStreamCBR>Flujo fijo</SubStreamCBR>
+<SubStreamVBR>Flujo variable</SubStreamVBR>
+<MainStreamCBR>Flujo fijo</MainStreamCBR>
+<MainStreamVBR>Flujo variable</MainStreamVBR>
+<SubStreamBitRateTypeSpan>Control de Flujo:</SubStreamBitRateTypeSpan>
+<MainStreamBitRateTypeSpan>Control de Flujo:</MainStreamBitRateTypeSpan>
+<SubStreamUserDefineSpan>costumbre</SubStreamUserDefineSpan>
+<MainStreamUserDefineSpan>costumbre</MainStreamUserDefineSpan>
+<NormChangeRebootMsg>El cambio de formato es necesario reiniciar!</NormChangeRebootMsg>
+<ViewSizeChangeRebootMsg>Cambios de resolución tienen que reiniciar!</ViewSizeChangeRebootMsg>
+<RebootWaitMsg>El dispositivo se reinicia, no apague el dispositivo......</RebootWaitMsg>
+<MainStreamFIXQP>masa fija</MainStreamFIXQP>
+<SubStreamFIXQP>masa fija</SubStreamFIXQP>
+<SubStreamFIXQPLevel1>Optimal</SubStreamFIXQPLevel1>
+<SubStreamFIXQPLevel2>bueno</SubStreamFIXQPLevel2>
+<SubStreamFIXQPLevel3>bueno</SubStreamFIXQPLevel3>
+<SubStreamFIXQPLevel4>general</SubStreamFIXQPLevel4>
+<SubStreamFIXQPLevel5>bajo</SubStreamFIXQPLevel5>
+<MainStreamFIXQPLevel1>Optimal</MainStreamFIXQPLevel1>
+<MainStreamFIXQPLevel2>bueno</MainStreamFIXQPLevel2>
+<MainStreamFIXQPLevel3>bueno</MainStreamFIXQPLevel3>
+<MainStreamFIXQPLevel4>general</MainStreamFIXQPLevel4>
+<MainStreamFIXQPLevel5>bajo</MainStreamFIXQPLevel5>
+<GopInputTipsSpan>Debe ser mayor que o igual</GopInputTipsSpan>
+<MainStreamGopSpan>Enmarco intervalo:</MainStreamGopSpan>
+<SubStreamGopSpan>Enmarco intervalo:</SubStreamGopSpan>
+<MainStreamAudioSpan>audiofrecuencia:</MainStreamAudioSpan>
+<SubStreamAudioSpan>audiofrecuencia:</SubStreamAudioSpan>
+<SubStreamAudioGrpOn>abierto</SubStreamAudioGrpOn>
+<SubStreamAudioGrpOff>cerca</SubStreamAudioGrpOff>
+<MainStreamAudioGrpOn>abierto</MainStreamAudioGrpOn>
+<MainStreamAudioGrpOff>cerca</MainStreamAudioGrpOff>
+</videohtml>
+
+<networkhtml>
+<LANSettingsSpan>Configuración de LAN:</LANSettingsSpan>
+<IPTypeSpan>IP de tipo:</IPTypeSpan>
+<IPTypeFixedIPAddressSpan>IP fijas</IPTypeFixedIPAddressSpan>
+<IPTypeDynanicIPAddressSpan>IP dinámica</IPTypeDynanicIPAddressSpan>
+<IPAddressSpan>direcciones IP:</IPAddressSpan>
+<SubnetMaskSpan>Máscara de subred:</SubnetMaskSpan>
+<GatewaySpan>entrada:</GatewaySpan>
+<DNSTypeSpan>Tipo de DNS:</DNSTypeSpan>
+<DNSTypeManualDNSSpan>DNS Manual</DNSTypeManualDNSSpan>
+<DNSTypeFromDHCPServerSpan>Servicio DHCP</DNSTypeFromDHCPServerSpan>
+<PrimaryDNSSpan>DNS primario:</PrimaryDNSSpan>
+<SecondaryDNSSpan>DNS alternativo:</SecondaryDNSSpan>
+<HTTPSpan>puerto:</HTTPSpan>
+<HTTPPortnumberSpan>Número de puerto HTTP:</HTTPPortnumberSpan>
+<MOBILEPortnumberSpan>Número de puerto del teléfono:</MOBILEPortnumberSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<InputASCIIErrorMsg>Por favor ingrese los caracteres ASCII (longitud es de 5 o 13)</InputASCIIErrorMsg>
+<InputHEXErrorMsg>Por favor ingrese los caracteres hexadecimales (longitud es de 10 o 26)</InputHEXErrorMsg>
+<WepKeyErrorMsg>error clave wep! Código hexadecimal es 10 o 26, los códigos ASCII son 5 o 13</WepKeyErrorMsg>
+<InputASCIIError1Msg>Por favor ingrese los caracteres ASCII (longitud 8-63)</InputASCIIError1Msg>
+<InputInvalidMsg>Contiene caracteres no válidos.</InputInvalidMsg>
+<InputErrorMsg>Los errores de entrada!</InputErrorMsg>
+<IPChangeMsg>Los ajustes se han cambiado, el dispositivo se reinicia...</IPChangeMsg>
+<InputIPMsg>Por favor, introduzca la dirección IP</InputIPMsg>
+<InputMaskMsg>Por favor, introduzca la máscara de subred</InputMaskMsg>
+<InputPortMsg>Número de puerto de error</InputPortMsg>
+<InputIPErrorMsg>Dirección no válida, el primer número debe estar entre 1-255</InputIPErrorMsg>
+<InputIPError1Msg>Direcciones no válidas, los números deben estar entre 1-255</InputIPError1Msg>
+<InputInvalidAddressMsg>Dirección no válida</InputInvalidAddressMsg>
+<InputInvalidAddress1Msg>Direcciones no válidas, los números deben estar entre 0-255</InputInvalidAddress1Msg>
+<SubnetMaskMsg>Máscara de subred</SubnetMaskMsg>
+<GateWayMsg>entrada</GateWayMsg>
+<PrimaryDnsMsg>DNS primario</PrimaryDnsMsg>
+<SecondDnsMsg>DNS alternativo</SecondDnsMsg>
+<httpportSpan>(80 o 1024-32767)</httpportSpan>
+<WanURLInputSpan>Prueba WAN:</WanURLInputSpan>
+<WanTestIngSpan>Poniendo a prueba</WanTestIngSpan>
+<WanTestSuccessSpan>La prueba es satisfactoria</WanTestSuccessSpan>
+<WanTestFailureSpan>error en la prueba</WanTestFailureSpan>
+<WanTestSpan>prueba</WanTestSpan>>
+<IPTestH4Span>Pruebas de red:</IPTestH4Span>
+</networkhtml>
+
+<ddnshtml>
+<DynamicDNSSpan>DNS dinámico:</DynamicDNSSpan>
+<StatusSpan>estado:</StatusSpan>
+<StatusOnSpan>abierto</StatusOnSpan>
+<StatusOffSpan>cerca</StatusOffSpan>
+<ProviderSpan>servidor:</ProviderSpan>
+<UsernameSpan>nombre de usuario:</UsernameSpan>
+<PasswordSpan>contraseña:</PasswordSpan>
+<YourDomainSpan>nombre de dominio:</YourDomainSpan>
+<UniversalPnPSpan>UPNP:</UniversalPnPSpan>
+<StatusSpan>estado:</StatusSpan>
+<StatusOnSpan>abierto</StatusOnSpan>
+<StatusOffSpan>cerca</StatusOffSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<InputErrorMsg>Contiene caracteres no válidos.</InputErrorMsg>
+<UserErrorMsg>Por favor, ingrese su nombre de usuario.</UserErrorMsg>
+<PasswdErrorMsg>Por favor, ingrese una contraseña.</PasswdErrorMsg>
+<DomainErrorMsg>Por favor, introduzca el nombre de dominio.</DomainErrorMsg>
+<UserNameErrorMsg>Errores Nombre de usuario, contiene caracteres no válidos.</UserNameErrorMsg>
+<InputDomainErrorMsg>Error de dominio, contiene caracteres no válidos.</InputDomainErrorMsg>
+</ddnshtml>
+
+
+<osdhtml>
+<ParenthesisOptionsSpan>configuración OSD:</ParenthesisOptionsSpan>
+<TimeStampSpan>Marca de tiempo:</TimeStampSpan>
+<TimeStampOnSpan>abierto</TimeStampOnSpan>
+<TimeStampOffSpan>cerca</TimeStampOffSpan>
+<CameranameSpan>Nombre del dispositivo:</CameranameSpan>
+<CameranameOnSpan>abierto</CameranameOnSpan>
+<CameranameOffSpan>cerca</CameranameOffSpan>
+<NameSpan>nombre:</NameSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+</osdhtml>
+
+
+<userhtml>
+<UserIDSpan>ID de usuario</UserIDSpan>
+<UsernameSpan>nombre de usuario</UsernameSpan>
+<PasswordSpan>contraseña</PasswordSpan>
+<RetypepasswordSpan>confirmar contraseña</RetypepasswordSpan>
+<AdministratorSpan>administrador</AdministratorSpan>
+<User1Span>usuario 1</User1Span>
+<User2Span>usuario 2</User2Span>
+<User3Span>usuario 3</User3Span>
+<User4Span>usuario 4</User4Span>
+<User5Span>usuario 5</User5Span>
+<User6Span>usuario 6</User6Span>
+<User7Span>usuario 7</User7Span>
+<User8Span>usuario 8</User8Span>
+<User9Span>usuario 9</User9Span>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<InputMsg>carácter no válido</InputMsg>
+<AdminMsg>Por favor escriba el nombre del administrador.</AdminMsg>
+<RePasswdMsg>Confirmar error de contraseña</RePasswdMsg>
+<UserNameMsg>Por favor, ingrese su nombre de usuario.</UserNameMsg>
+<PasswdMsg>Por favor, ingrese una contraseña.</PasswdMsg>
+<UserErrorMsg>Nombre de usuario de repetición</UserErrorMsg>
+<UserInputErrorMsg>Nombre de usuario contiene caracteres inválidos repiten</UserInputErrorMsg>
+</userhtml>
+
+<emailhtml>
+<EMailSettingSpan>Configuración del correo electrónico:</EMailSettingSpan>
+<SMTPservernameSpan>Nombre del servidor:</SMTPservernameSpan>
+<SMTPserverportSpan>puerto del servidor:</SMTPserverportSpan>
+<SSLSpan>Encryption:</SSLSpan>
+<AuthenticationSpan>autenticar:</AuthenticationSpan>
+<AuthenticationOnSpan>abierto</AuthenticationOnSpan>
+<AuthenticationOffSpan>cerca</AuthenticationOffSpan>
+<UsernameSpan>nombre de usuario:</UsernameSpan>
+<PasswordSpan>contraseña:</PasswordSpan>
+<SendToSpan>destinatario:</SendToSpan>
+<SendToeMailAddress1Span></SendToeMailAddress1Span>
+<SendToeMailAddress2Span></SendToeMailAddress2Span>
+<SendToeMailAddress3Span></SendToeMailAddress3Span>
+<ShowFromasSpan>remitente:</ShowFromasSpan>
+<ShowFromasReturneMailaddressSpan></ShowFromasReturneMailaddressSpan>
+<SubjectSpan>título:</SubjectSpan>
+<MessageSpan>contenido:</MessageSpan>
+<Messagethemaxlengthis255Span>La longitud máxima de 255</Messagethemaxlengthis255Span>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<emailAddrErrorMsg>Dirección no válida, la longitud de la dirección debe ser superior a 5</emailAddrErrorMsg>
+<emailAddrError1Msg>Dirección no válida, la dirección debe contener el carácter @</emailAddrError1Msg>
+<emailInputErrorMsg>Carácter no válido</emailInputErrorMsg>
+<emailSMTPErrorMsg>Introduzca el nombre del servidor</emailSMTPErrorMsg>
+<emailInputAddrMsg>Por favor, introduzca la dirección de correo electrónico</emailInputAddrMsg>
+<emailFormAddrMsg>Por favor, introduzca la dirección de destinatario</emailFormAddrMsg>
+<emailUserErrorMsg>Por favor, ingrese su nombre de usuario</emailUserErrorMsg>
+<emailPasswdErrorMsg>Por favor, ingrese una contrase?a</emailPasswdErrorMsg>
+<emailServerNameErrorMsg>Nombre de servidor equivocado, contiene caracteres no válidos</emailServerNameErrorMsg>
+<emailFormAddrErrorMsg>Dirección de un destinatario incorrecto contiene caracteres no válidos</emailFormAddrErrorMsg>
+<emailToAddrErrorMsg>Error de la dirección del remitente, contiene caracteres no válidos</emailToAddrErrorMsg>
+<emailSubjectErrorMsg>Error de rumbo, contiene caracteres no válidos</emailSubjectErrorMsg>
+<emailMessageErrorMsg>Mensaje de error, contiene caracteres no válidos</emailMessageErrorMsg>
+<emailUserInputErrorMsg>Errores Nombre de usuario, contiene caracteres no válidos</emailUserInputErrorMsg>
+<emailPasswdInputErrorMsg>La contraseña es incorrecta, contiene caracteres no válidos</emailPasswdInputErrorMsg>
+<emailMessageLenErrorMsg>Mensaje más de 255 caracteres</emailMessageLenErrorMsg>
+<emailPortErrorMsg>Puerto contiene caracteres no válidos</emailPortErrorMsg>
+<emailPortError1Msg>Error de puerto debe (1-65535) entre</emailPortError1Msg>
+</emailhtml>
+
+<timeplanhtml>
+<workmodeCleanSpan>eliminar</workmodeCleanSpan>
+<weekmodeCleanSpan>eliminar</weekmodeCleanSpan>
+<workdayspan>días</workdayspan>
+<weekendspan>cerrado</weekendspan> 
+<Workmodetimeperiod1span>1 vez</Workmodetimeperiod1span>
+<Workmodetimeperiod2span>2 vez</Workmodetimeperiod2span>
+<Workmodetimeperiod3span>3 vez</Workmodetimeperiod3span>
+<Weekkmodetimeperiod1span>1 vez</Weekkmodetimeperiod1span>
+<Weekkmodetimeperiod2span>2 vez</Weekkmodetimeperiod2span>
+<Weekkmodetimeperiod3span>3 vez</Weekkmodetimeperiod3span>
+<weeksunspan>día</weeksunspan>
+<weekmonspan>la</weekmonspan>
+<weektuespan>dos</weektuespan>
+<weekwedspan>tres</weekwedspan>
+<weekthuspan>cuatro</weekthuspan>
+<weekfrispan>cinco</weekfrispan>
+<weeksatspan>seis</weeksatspan>
+</timeplanhtml>
+
+<mdhtml>
+<AreaSpan>zona:</AreaSpan>
+<StatusSpan>estado:</StatusSpan>
+<StatusEnableSpan>La detección de movimiento se activa</StatusEnableSpan>
+<SensibilitySpan>sensibilidad:</SensibilitySpan>
+<SensibilityveryhighSpan>Optimal</SensibilityveryhighSpan>
+<SensibilityhighSpan>excelente</SensibilityhighSpan>
+<SensibilitynormalSpan>bueno</SensibilitynormalSpan>
+<SensibilitylowSpan>general</SensibilitylowSpan>
+<SelectAllSpan>seleccionar:</SelectAllSpan>
+<CleamAllSpan>eliminar:</CleamAllSpan>
+<ActionSpan>alarma:</ActionSpan>
+<EMailSpan>correo:</EMailSpan>
+<SendEmailSpan>Enviar Alertas</SendEmailSpan>
+<SendToEmailLaebl>Envía por email</SendToEmailLaebl>
+<OutputSpan>alarma:</OutputSpan>
+<TriggerAlarmOutputSpan>Salida de alarma de disparo</TriggerAlarmOutputSpan>
+<ScheduleSpan>plan de alarma:</ScheduleSpan>
+<ScheduleUsetheweekmodeSpan>modo de Semana</ScheduleUsetheweekmodeSpan>
+<ScheduleUsetheworkmodeSpan>modo de trabajo</ScheduleUsetheworkmodeSpan>
+<ScheduleAlltimedaySpan>todos los tiempos</ScheduleAlltimedaySpan>
+<MdSelectAllSpan>seleccionar</MdSelectAllSpan>
+<MdCleanAllSpan>eliminar</MdCleanAllSpan>
+<MdTimeSpan>tiempo</MdTimeSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<MdErrorMsg>Error de tiempo!</MdErrorMsg>
+<AlarmRecInputLabel>Grabación de alarma del disparador</AlarmRecInputLabel>
+<AlarmSnapInputLabel>Activar alarmas Capture</AlarmSnapInputLabel>
+<SendToFtpLabel>Subir a FTP</SendToFtpLabel>
+<FtpUploadRecLabel>Subir a FTP</FtpUploadRecLabel>
+<PushUploadLabel>Empuje</PushUploadLabel>
+</mdhtml>
+
+
+<alarminhtml>
+<AlarmInSpan>entrada de alarma:</AlarmInSpan>
+<StatusSpan>estado:</StatusSpan>
+<EnableSpan>Habilitar la entrada de alarma</EnableSpan>
+<ActivemodeSpan>Modo de disparo</ActivemodeSpan>
+<ActivemodeLowSpan>bajo</ActivemodeLowSpan>
+<ActivemodeHighSpan>alto</ActivemodeHighSpan>
+<ActionSpan>acoplamiento de la alarma:</ActionSpan>
+<EMailSpan>correo:</EMailSpan>
+<EMailSendEmailSpan>Enviar Alertas</EMailSendEmailSpan>
+<SendToEmailLaebl>Envía por email</SendToEmailLaebl>
+<OutputSpan>alarma:</OutputSpan>
+<OutputTriggerAlarmOutputSpan>Salida de alarma de disparo</OutputTriggerAlarmOutputSpan>
+<ScheduleSpan>plan de alarma:</ScheduleSpan>
+<ScheduleUsetheweekmodeSpan>modo de Semana</ScheduleUsetheweekmodeSpan>
+<ScheduleUsetheworkmodeSpan>modo de trabajo</ScheduleUsetheworkmodeSpan>
+<ScheduleAlltimesdaySpan>todos los tiempos</ScheduleAlltimesdaySpan>
+<workdayspan>días</workdayspan>
+<weekendspan>cerrado</weekendspan> 
+<workmodeCleanSpan>eliminar</workmodeCleanSpan>
+<workmodeCloseSpan>cerca</workmodeCloseSpan>
+<Workmodetimeperiod1span>1 vez</Workmodetimeperiod1span>
+<Workmodetimeperiod2span>2 vez</Workmodetimeperiod2span>
+<Workmodetimeperiod3span>3 vez</Workmodetimeperiod3span>
+<Weekkmodetimeperiod1span>1 vez</Weekkmodetimeperiod1span>
+<Weekkmodetimeperiod2span>2 vez</Weekkmodetimeperiod2span>
+<Weekkmodetimeperiod3span>3 vez</Weekkmodetimeperiod3span>
+<weekmodeCleanSpan>eliminar</weekmodeCleanSpan>
+<weekmodeCloseSpan>cerca</weekmodeCloseSpan>
+<TimeSetSpan>tiempo</TimeSetSpan>
+<weeksunspan>día</weeksunspan>
+<weekmonspan>la</weekmonspan>
+<weektuespan>dos</weektuespan>
+<weekwedspan>tres</weekwedspan>
+<weekthuspan>cuatro</weekthuspan>
+<weekfrispan>cinco</weekfrispan>
+<weeksatspan>seis</weeksatspan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<ErrorMsg>argumento no válido</ErrorMsg>
+<AlarmOutSpan>salida de alarma:</AlarmOutSpan>
+<StatusSpan>estado:</StatusSpan>
+<EnableSpan>permitir</EnableSpan>
+<ActivemodeSpan>Modo de disparo</ActivemodeSpan>
+<ActivemodeOpenSpan>Normalmente abierto</ActivemodeOpenSpan>
+<ActivemodeGrounedSpan>NC</ActivemodeGrounedSpan>
+<ContinuetimeSpan>duración:</ContinuetimeSpan>
+<aocontinueTimeSpan>segundo</aocontinueTimeSpan>
+<AlarmRecInputLabel>Grabación de alarma del disparador</AlarmRecInputLabel>
+<AlarmSnapInputLabel>Activar alarmas Capture</AlarmSnapInputLabel>
+<SendToFtpLabel>Subir a FTP</SendToFtpLabel>
+<FtpUploadRecLabel>Subir a FTP</FtpUploadRecLabel>
+<PushUploadLabel>Empuje</PushUploadLabel>
+</alarminhtml>
+
+
+<alarmouthtml>
+<AlarmOutSpan>salida de alarma:</AlarmOutSpan>
+<StatusSpan>estado:</StatusSpan>
+<EnableSpan>permitir</EnableSpan>
+<ActivemodeSpan>Modo de entrada de alarma</ActivemodeSpan>
+<ActivemodeOpenSpan>Normalmente abierto</ActivemodeOpenSpan>
+<ActivemodeGrounedSpan>NC</ActivemodeGrounedSpan>
+<ContinuetimeSpan>duración:</ContinuetimeSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+</alarmouthtml>
+
+<autosnaphtml>
+<SnapSpan>captura:</SnapSpan>
+<ntervalSpan>intervalo:</ntervalSpan>
+<ntervalMinutesSpan>minuto</ntervalMinutesSpan>
+<ActionSpan>acción:</ActionSpan>
+<EMailSpan>correo:</EMailSpan>
+<SendbyEmailSpan>enviar</SendbyEmailSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<InputErrorMsg>Contiene caracteres no válidos.</InputErrorMsg>
+<IntervalErrorMsg>Intervalo no válido (1-1440)</IntervalErrorMsg>
+<SettingSpan>E-Mail establecer</SettingSpan>
+<StatusSpan>estado:</StatusSpan>
+<AutoSnapEnableSpan>permitir</AutoSnapEnableSpan>
+</autosnaphtml>
+
+<timehtml>
+<Sunday>día</Sunday>
+<Monday>la</Monday>
+<Tuesday>dos</Tuesday>
+<Wednesday>tres</Wednesday>
+<Thursday>cuatro</Thursday>
+<Friday>cinco</Friday>
+<Saturday>seis</Saturday>
+<Januar>enero</Januar>
+<Februar>febrero</Februar>
+<Marts>marzo</Marts>
+<April>abril</April>
+<Maj>mayo</Maj>
+<Juni>junio</Juni>
+<Juli>julio</Juli>
+<August>agosto</August>
+<September>septiembre</September>
+<Oktober>octubre</Oktober>
+<November>noviembre</November>
+<December>diciembre</December>
+<AdjustSpan>ajuste:</AdjustSpan>
+<CameradatetimeSpan>Fecha Actual&amp;tiempo:</CameradatetimeSpan>
+<SetmodeSpan>Modo de configuración:</SetmodeSpan>
+<SetmodeKeepcurrentsettingSpan>Mantener el ajuste actual</SetmodeKeepcurrentsettingSpan>
+<SetmodeManualsettingSpan>establezca manualmente</SetmodeManualsettingSpan>
+<SetmodeManualsettingDateSpan>fecha:</SetmodeManualsettingDateSpan>
+<SetmodeManualsettingTimeSpan>tiempo:</SetmodeManualsettingTimeSpan>
+<SetmodeSyncwithcomputertimeSpan>Sincronización de tiempo de computadora</SetmodeSyncwithcomputertimeSpan>
+<SetmodeSyncwithcomputerPCTimeSpan>tiempo de ordenador:</SetmodeSyncwithcomputerPCTimeSpan>
+<SetmodeSyncwhitntpSpan>Network Time Protocol (NTP)</SetmodeSyncwhitntpSpan>
+<SetmodeSyncwhitntpNTPservernameSpan>servidor:</SetmodeSyncwhitntpNTPservernameSpan>
+<SetmodeSyncwhitntpIntervalSpan>intervalo:</SetmodeSyncwhitntpIntervalSpan>
+<SetmodeSyncwhitntpIntervalhourSpan>hora</SetmodeSyncwhitntpIntervalhourSpan>
+<TimezoneSpan>huso horario:</TimezoneSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<TimezoneKeepcurrentsettingSpan>Mantener el ajuste actual</TimezoneKeepcurrentsettingSpan>
+<TimezoneInternationalDateLineWestSpan>(GMT-12:00) International Date Line West</TimezoneInternationalDateLineWestSpan>
+<TimezoneMidwayIslandSamoaSpan>(GMT-11:00) Wake Island Samoa</TimezoneMidwayIslandSamoaSpan>
+<TimezoneHawaiiSpan>(GMT-10:00) Hawai</TimezoneHawaiiSpan>
+<TimezoneAlaskaSpan>(GMT-09:00) Alaska</TimezoneAlaskaSpan>
+<TimezonePacificTimeUSCanadaTijuanaSpan>(GMT-08:00) Hora del Pacífico (EE.UU. y Canadá) Ampliación de Tijuana</TimezonePacificTimeUSCanadaTijuanaSpan>
+<TimezoneMountainTimeUSCanadaSpan>(GMT-07:00) Mountain Standard Time (EE.UU. y Canadá)</TimezoneMountainTimeUSCanadaSpan>
+<TimezoneChihuahuaLaPazMazatlanSpan>(GMT-07:00) Chihuahua, La Paz, Mazatlán</TimezoneChihuahuaLaPazMazatlanSpan>
+<TimezoneArizonaSpan>(GMT-07:00) Arizona</TimezoneArizonaSpan>
+<TimezoneSaskatchewanSpan>(GMT-06:00) Saskatchewan</TimezoneSaskatchewanSpan>
+<TimezoneGuaddlajaraMexicoCityMonterreySpan>(GMT-06:00) Guadalajara, México, Monterrey</TimezoneGuaddlajaraMexicoCityMonterreySpan>
+<TimezoneCentralTimeUSCanadaSpan>(GMT-06:00) Hora estándar central (EE.UU. y Canadá)</TimezoneCentralTimeUSCanadaSpan>
+<TimezoneCentralAmericaSpan>(GMT-06:00) América Central</TimezoneCentralAmericaSpan>
+<TimezoneIndianaEastSpan>(GMT-05:00) Indiana (este)</TimezoneIndianaEastSpan>
+<TimezoneEasternTimeUSCanadaSpan>(GMT-05:00) Hora del este (EE.UU. y Canadá)</TimezoneEasternTimeUSCanadaSpan>
+<TimezoneBogotaLimaQuitoSpan>(GMT-05:00) Bogotá, Lima, Quito</TimezoneBogotaLimaQuitoSpan>
+<TimezoneSantiagoSpan>(GMT-04:00) San Diego</TimezoneSantiagoSpan>
+<TimezoneCaracasLaPazSpan>(GMT-04:00) Caracas, La Paz</TimezoneCaracasLaPazSpan>
+<TimezoneAtlanticTimeCanadaSpan>(GMT-04:00) Hora del Atlántico (Canadá)</TimezoneAtlanticTimeCanadaSpan>
+<TimezoneNenfoundLandSpan>(GMT-03:30) Terranova (este de Canadá costa de la isla)</TimezoneNenfoundLandSpan>
+<TimezoneGreenlandSpan>(GMT-03:00) Groenlandia</TimezoneGreenlandSpan>
+<TimezoneBuenosAiresGeorgentownSpan>(GMT-03:00) Buenos Aires</TimezoneBuenosAiresGeorgentownSpan>
+<TimezoneBrasiliaSpan>(GMT-03:00) Brasilia</TimezoneBrasiliaSpan>
+<TimezoneMidAtlanticSpan>(GMT-02:00) Mid-Atlantic</TimezoneMidAtlanticSpan>
+<TimezoneCapeVerdeIsSpan>(GMT-01:00) Cabo Verde</TimezoneCapeVerdeIsSpan>
+<TimezoneAzoresSpan>(GMT-01:00) Azores</TimezoneAzoresSpan>
+<TimezoneGreenwichMeanTimeDublinEdinburghLisbonLondonSpan>(GMT-00:00) Tiempo Medio de Greenwich Dublín, Edimburgo, Lisboa, Londres</TimezoneGreenwichMeanTimeDublinEdinburghLisbonLondonSpan>
+<TimezoneCasablancamonroviaSpan>(GMT+00:00) Casablanca, Monrovia</TimezoneCasablancamonroviaSpan>
+<TimezoneAmsterdamBerlinBernRomeStockholmViennaSpan>(GMT+01:00) Amsterdam, Berlín, Berna, Roma, Estocolmo, Viena</TimezoneAmsterdamBerlinBernRomeStockholmViennaSpan>
+<TimezoneBelgradeBratislavaBudapestLjubljanaPragueSpan>(GMT+01:00) Belgrado, Bratislava, Budapest, Ljubljana, Prague</TimezoneBelgradeBratislavaBudapestLjubljanaPragueSpan>
+<TimezoneBrusselsCopenhagenMadridParisSpan>(GMT+01:00) Bruselas, Copenhagen, Madrid, París</TimezoneBrusselsCopenhagenMadridParisSpan>
+<TimezoneSarajevoSkopjeWarsawZagrebSpan>(GMT+01:00) Sarajevo, Macedonia, Varsovia, Zagreb</TimezoneSarajevoSkopjeWarsawZagrebSpan>
+<TimezoneWestCentralAfricaSpan>(GMT+01:00) Central de áfrica Occidental</TimezoneWestCentralAfricaSpan>
+<TimezonehensIstanbulMinskSpan>(GMT+02:00) Atenas, Estambul, Minsk</TimezonehensIstanbulMinskSpan>
+<TimezoneBucharestSpan>(GMT+02:00) Bucarest</TimezoneBucharestSpan>
+<TimezoneCairoSpan>(GMT+02:00) El Cairo</TimezoneCairoSpan>
+<TimezonerarePretoriaSpan>(GMT+02:00) Harare, Pretoria</TimezonerarePretoriaSpan>
+<TimezoneHelsinkiKyivRigaSofiaTallinnVilniusSpan>(GMT+02:00) Helsinki, Kiev, Riga, Tallin, Bulgaria, Vilnius</TimezoneHelsinkiKyivRigaSofiaTallinnVilniusSpan>
+<TimezoneJerusalemSpan>(GMT+02:00) Jerusalén</TimezoneJerusalemSpan>
+<TimezoneBaghdadSpan>(GMT+03:00) Bagdad</TimezoneBaghdadSpan>
+<TimezoneKuwaitRiyadhSpan>(GMT+03:00) Kuwait, Riyadh</TimezoneKuwaitRiyadhSpan>
+<TimezoneMoscowStPetersburgVolgogradSpan>(GMT+03:00) Moscú, San Petersburgo, Volgogrado</TimezoneMoscowStPetersburgVolgogradSpan>
+<TimezoneNairobiSpan>(GMT+03:00) Nairobi</TimezoneNairobiSpan>
+<TimezoneTehranSpan>(GMT+03:30) Teherán</TimezoneTehranSpan>
+<TimezoneAbuDhabiMuscatSpan>(GMT+04:00) Abu Dhabi, Muscat</TimezoneAbuDhabiMuscatSpan>
+<TimezoneBakuTbilisiYerevanSpan>(GMT+04:00) Bakú, Ereván, Tbilisi</TimezoneBakuTbilisiYerevanSpan>
+<TimezoneKabulSpan>(GMT+04:30) Kabul</TimezoneKabulSpan>
+<TimezoneEkaterinburgSpan>(GMT+05:00) Ekaterinburg</TimezoneEkaterinburgSpan>
+<TimezoneIslamabadKarachiTashkentSpan>(GMT+05:00) Islamabad, Karachi, Tashkent</TimezoneIslamabadKarachiTashkentSpan>
+<TimezoneChennaiKolkataMumbaiNewDelhiSpan>(GMT+05:30) Chennai, Kolkata, Mumbai, Nueva Delhi</TimezoneChennaiKolkataMumbaiNewDelhiSpan>
+<TimezoneKathmanduSpan>(GMT+05:45) Katmandú</TimezoneKathmanduSpan>
+<TimezoneAlmatyNovosibirskSpan>(GMT+06:00) Almaty, Novosibirsk</TimezoneAlmatyNovosibirskSpan>
+<TimezoneAstanaDhakaSpan>(GMT+06:00) Astana, Dhaka</TimezoneAstanaDhakaSpan>
+<TimezoneSriJayawardenepuraSpan>(GMT+06:00) Sri Lanka</TimezoneSriJayawardenepuraSpan>
+<TimezoneRangoonSpan>(GMT+06:30) Yangon</TimezoneRangoonSpan>
+<TimezoneBangkokHanoiJakartaSpan>(GMT+07:00) Hanoi, Bangkok, Yakarta</TimezoneBangkokHanoiJakartaSpan>
+<TimezoneKrasnoyarskSpan>(GMT+07:00) Krasnoyarsk</TimezoneKrasnoyarskSpan>
+<TimezoneBeijingChongqingHongKongUrumqiSpan>(GMT+08:00) Beijing, Chongqing, Hong Kong, Urumqi</TimezoneBeijingChongqingHongKongUrumqiSpan>
+<TimezoneIrkutskUlaanBataarSpan>(GMT+08:00) Irkutsk, Ulan Bator</TimezoneIrkutskUlaanBataarSpan>
+<TimezoneKualaLumpurSingaporeSpan>(GMT+08:00) Kuala Lumpur, Singapur</TimezoneKualaLumpurSingaporeSpan>
+<TimezonePerthSpan>(GMT+08:00) Perth</TimezonePerthSpan>
+<TimezoneTaipeiSpan>(GMT+08:00) Taipei</TimezoneTaipeiSpan>
+<TimezoneOsakaSapporoTokyoSpan>(GMT+09:00) Osaka, Sapporo, Tokyo</TimezoneOsakaSapporoTokyoSpan>
+<TimezoneSeoulSpan>(GMT+09:00) Seúl</TimezoneSeoulSpan>
+<TimezoneYakutskSpan>(GMT+09:00) Yakutsk</TimezoneYakutskSpan>
+<TimezoneAdelaideSpan>(GMT+09:30) Adelaide</TimezoneAdelaideSpan>
+<TimezoneBrisbaneSpan>(GMT+10:00) Brisbane City</TimezoneBrisbaneSpan>
+<TimezoneCanberraMelbourneSydneySpan>(GMT+10:00) Canberra, Melbourne, Sydney</TimezoneCanberraMelbourneSydneySpan>
+<TimezoneGuamPortMoresbySpan>(GMT+10:00) Guam, Port Moresby</TimezoneGuamPortMoresbySpan>
+<TimezoneHobartSpan>(GMT+10:00) Hobart</TimezoneHobartSpan>
+<TimezoneVladivostokSpan>(GMT+10:00) Vladivostok</TimezoneVladivostokSpan>
+<TimezoneMagadanSolomonIsNewSpan>(GMT+11:00) Magadan, Salomón, la Nueva Caledonia</TimezoneMagadanSolomonIsNewSpan>
+<TimezoneAucklandWellingtonSpan>(GMT+12:00) Auckland, Wellington</TimezoneAucklandWellingtonSpan>
+<TimezoneFijiKamchatkaMarshallIsSpan>(GMT+12:00) Fiji, Kamchatka, Marshall</TimezoneFijiKamchatkaMarshallIsSpan>
+<TimezoneNukualofaSpan>(GMT+13:00) Nuku'alofa</TimezoneNukualofaSpan>
+<AutomaticallyadjustclockfordaylightsavingtimechangesSpan>Ajuste automático de cambio de hora del reloj</AutomaticallyadjustclockfordaylightsavingtimechangesSpan>
+<YearErrorMsg>Error de tiempo de computadora, el tiempo debe estar comprendido entre 01/01/1971 al 12/31/2036</YearErrorMsg>
+<NtpErrorMsg>Por favor escriba el nombre del servidor NTP</NtpErrorMsg>
+<NtpServerErrorMsg>NTP error de nombre de servidor.</NtpServerErrorMsg>
+<InvalidNumber>El tiempo debe estar entre 0 y 60</InvalidNumber>
+<InvalidChar>Contiene caracteres no válidos.</InvalidChar>
+<PushTimeSpan>retardo de empuje (s):</PushTimeSpan>
+<SecondSpan>(0~60)</SecondSpan>
+<UnLockTimeSpan>desbloquear tiempo (s):</UnLockTimeSpan>
+<UnLockTimeOptionSpan>(1~10)</UnLockTimeOptionSpan>
+<InvalidNumberTen>El tiempo debe estar entre 1 y 10</InvalidNumberTen>
+</timehtml>
+
+
+
+<initializemainhtml>
+<InitializeSpan>inicialización</InitializeSpan>
+<RebootSpan>reanudar:</RebootSpan>
+<FactorydefaultSpan>Restaurar configuraciones de fábrica:</FactorydefaultSpan>
+<BackupsettingdataSpan>parámetros de copia de seguridad:</BackupsettingdataSpan>
+<BackupsettingdataOkSpan>guardar</BackupsettingdataOkSpan>
+<RestoreSpan>Parámetros de recuperación:</RestoreSpan>
+<Restorebrower>Navegar...</Restorebrower>
+<RestoreOKSpan>confirmar</RestoreOKSpan>
+<UpgradeSpan>modernización:</UpgradeSpan>
+<UpgradeOKSpan>confirmar</UpgradeOKSpan>
+<RebootOKSpan>confirmar</RebootOKSpan>
+<FactoryOKSpan>confirmar</FactoryOKSpan>
+<Upgradebrower>Navegar...</Upgradebrower>
+<RebootMsg>Para reiniciar el dispositivo, para determinar si？</RebootMsg>
+<RebootWaitMsg>El dispositivo se reinicia, no apague el dispositivo......</RebootWaitMsg>
+<ResetMsg>Los datos se pueden restaurar los ajustes de fábrica, para determinar si？</ResetMsg>
+<InputFileMsg>Por favor, archivo de entrada</InputFileMsg>
+<UpgradeMsg>Equipo se actualizará, para determinar si？</UpgradeMsg>
+<UpgradeWaitMsg>El equipo está siendo actualizado, por favor no apague el dispositivo......</UpgradeWaitMsg>
+<UploadMsg>Para restaurar los parámetros del dispositivo, para determinar si？</UploadMsg>
+<UploadWaitMsg>El equipo está siendo restaurado parámetros, no se apagan el dispositivo......</UploadWaitMsg>
+<RebootOKSpan>confirmar</RebootOKSpan>
+<ResetOKSpan>confirmar</ResetOKSpan>
+</initializemainhtml>
+
+
+
+
+<deviceinfohtml>
+<DeviceinfoSpan>Información del dispositivo </DeviceinfoSpan>
+<CameranameSpan>Nombre del dispositivo:</CameranameSpan>
+<SerialNumberSpan>ID de dispositivo:</SerialNumberSpan>
+<CameraTypeSpan>modelo:</CameraTypeSpan>
+<connectionSpan>Fi:</connectionSpan>
+<SoftwareVersionSpan>Versión de software:</SoftwareVersionSpan>
+<NetworkInfoSpan>Información de la Red</NetworkInfoSpan>
+<MacaddressSpan>Mac Address:</MacaddressSpan>
+<IPaddressSpan>direcciones IP:</IPaddressSpan>
+<SubnetmaskSpan>Máscara de subred:</SubnetmaskSpan>
+<GatewaySpan>entrada:</GatewaySpan>
+<PrimaryDNSSpan>DNS primario:</PrimaryDNSSpan>
+<SecondaryDNSSpan>DNS alternativo:</SecondaryDNSSpan>
+<StartTimeSpan>tiempo de arranque:</StartTimeSpan>
+<HardVersionSpan>Fecha de lanzamiento:</HardVersionSpan>
+</deviceinfohtml>
+
+<basehtml>
+<LanguageSpan>idioma:</LanguageSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+</basehtml>
+
+<idcardhtml>
+<syslogFirstspan>casa</syslogFirstspan>
+<syslogUpspan>anterior</syslogUpspan>
+<syslogDownspan>próximo</syslogDownspan>
+<syslogEndspan>final</syslogEndspan>
+<SearchSpan>búsqueda</SearchSpan>
+<cardaddspan>aumentar</cardaddspan>
+<syslogcleanspan>eliminar</syslogcleanspan>
+</idcardhtml>
+
+<sysloghtml>
+<syslogcleanspan>eliminar</syslogcleanspan>
+<gotospan>Saltar a:</gotospan>
+<syslogFirstspan>casa</syslogFirstspan>
+<syslogUpspan>anterior</syslogUpspan>
+<syslogDownspan>próximo</syslogDownspan>
+<syslogEndspan>final</syslogEndspan>
+<syslogBackupspan>reserva</syslogBackupspan>
+<SearchSpan>búsqueda</SearchSpan>
+<SearchTimeSpan>Hora:</SearchTimeSpan>
+<SearchTypeSpan>Tipo</SearchTypeSpan>
+<SearchTypeAllSpan>todo</SearchTypeAllSpan>
+<SearchTypeAlarmSpan>alarma</SearchTypeAlarmSpan>
+<SearchTypeOperationSpan>funcionamiento</SearchTypeOperationSpan>
+<SearchTypeDoorRingSpan>anillo de Bell</SearchTypeDoorRingSpan>
+<SearchTypeUnlockSpan>descubrir</SearchTypeUnlockSpan>
+<TabelNumSpan>No.</TabelNumSpan>
+<TabelTimeSpan>tiempo</TabelTimeSpan>
+<TabelTypeSpan>tipo</TabelTypeSpan>
+<TabelDetailedSpan>detallado</TabelDetailedSpan>
+<MsgStartup>bota</MsgStartup>
+<MsgModifyTime>Modificado</MsgModifyTime>
+<MsgRomoteLogin>Remote Login</MsgRomoteLogin>
+<MsgSendEmail>Enviar correo electrónico, el destinatario:</MsgSendEmail>
+<MsgTimeRecord>Abre la grabación con temporizador</MsgTimeRecord>
+<MsgManualRecord>Abre Grabación manual</MsgManualRecord>
+<MsgAlarmRecord>Abre grabación de alarma</MsgAlarmRecord>
+<MsgModifyNetwork>Modificar los parámetros de red</MsgModifyNetwork>
+<MsgIOAlarmIn>Se produce la entrada de alarma IO</MsgIOAlarmIn>
+<MsgIOAlarmOut>Se produce la salida de alarma IO</MsgIOAlarmOut>
+<MsgMDAlarmStart>Alarma de detección de movimiento</MsgMDAlarmStart>
+<MsgMDAlarmEnd>El fin de las alarmas de detección de movimiento</MsgMDAlarmEnd>
+<MsgODAlarmStart>Se produce una alarma de detección de la cubierta</MsgODAlarmStart>
+<MsgODAlarmEnd>Alarma de detección de Tapa final</MsgODAlarmEnd>
+<SearchTypeDoorRingSpan>anillo de Bell</SearchTypeDoorRingSpan>
+<MsgLocal>hablar(unidad interior)</MsgLocal>
+<MsgRemote>hablar(teléfono móvil)</MsgRemote>
+<MsgUnlockLocal>local</MsgUnlockLocal>
+<MsgUnlockRemote>remotamente</MsgUnlockRemote>
+<MsgDoor1>puerta1 llamada</MsgDoor1>
+<MsgDoor2>puerta2 llamada</MsgDoor2>
+<MsgDoorCall>llamada</MsgDoorCall>
+<Sunday>día</Sunday>
+<Monday>la</Monday>
+<Tuesday>dos</Tuesday>
+<Wednesday>tres</Wednesday>
+<Thursday>cuatro</Thursday>
+<Friday>cinco</Friday>
+<Saturday>seis</Saturday>
+<Januar>enero</Januar>
+<Februar>febrero</Februar>
+<Marts>marzo</Marts>
+<April>abril</April>
+<Maj>mayo</Maj>
+<Juni>junio</Juni>
+<Juli>julio</Juli>
+<August>agosto</August>
+<September>septiembre</September>
+<Oktober>octubre</Oktober>
+<November>noviembre</November>
+<December>diciembre</December>
+<ErrorTime>Error de tiempo!</ErrorTime>
+</sysloghtml>
+
+<ptzhtml>
+<PropertySpan>propiedad</PropertySpan>
+<ProtocolSpan>acuerdo:</ProtocolSpan>
+<BaudRateSpan>Bit Rate:</BaudRateSpan>
+<DataBitSpan>Bits de datos:</DataBitSpan>
+<StopBitSpan>Bits de parada:</StopBitSpan>
+<ParitySpan>paridad:</ParitySpan>
+<AddressSpan>código de dirección:</AddressSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<addressErrorMsg>Código de dirección está fuera de rango(0~255)</addressErrorMsg>
+<FilpSpan>voltear verticalmente:</FilpSpan>
+<MirrorSpan>voltear horizontalmente:</MirrorSpan>
+<FlipOnSpan>abierto</FlipOnSpan>
+<FlipOffSpan>cerca</FlipOffSpan>
+<MirrorOnSpan>abierto</MirrorOnSpan>
+<MirrorOffSpan>cerca</MirrorOffSpan>
+</ptzhtml>
+
+<odhtml>
+<OcclusionSpan>alarma cubierta</OcclusionSpan>
+<StatusSpan>Estado:</StatusSpan>
+<EnableSpan>permitir</EnableSpan>
+<SensibilitySpan>sensibilidad:</SensibilitySpan>
+<SensibilityveryhighSpan>Optimal</SensibilityveryhighSpan>
+<SensibilityhighSpan>excelente</SensibilityhighSpan>
+<SensibilitynormalSpan>bueno</SensibilitynormalSpan>
+<SensibilitylowSpan>general</SensibilitylowSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+</odhtml>
+
+<recordhtml>
+<RecordSpan>vídeo</RecordSpan>
+<FileTimeSpan>tiempo de embalaje:</FileTimeSpan>
+<Filetime0Span>cerca</Filetime0Span>
+<MinuteSpan>minuto</MinuteSpan>
+<ManualRecordSpan>grabación manual:</ManualRecordSpan>
+<manualrecOnSpan>abierto</manualrecOnSpan>
+<manualrecOffSpan>cerca</manualrecOffSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<NoStorageMsg>No hay tarjeta SD no puede grabar!</NoStorageMsg>
+<RecordTypeSpan>Tipo de registro</RecordTypeSpan>
+<RecPictureOnSpan>captura de imágenes</RecPictureOnSpan>
+<RecVideoOnSpan>grabar video</RecVideoOnSpan>
+</recordhtml>
+
+<storagehtml>
+<SdcardInfoSpan>Información de la tarjeta SD:</SdcardInfoSpan>
+<StatusSpan>estado:</StatusSpan>
+<sdstatusMsg>No inserido</sdstatusMsg>
+<refresh>Actualizar</refresh>
+<removeBT>Desinstalar</removeBT>
+<mountBT>montaje</mountBT>
+<frt>formato</frt>
+<brower>Navegar...</brower>
+<SDCardFormatMsg>datos de la tarjeta sd desaparecerán, para determinar si?</SDCardFormatMsg>
+<SDCardRemoveMsg>tarjeta sd se descargará, para determinar si?</SDCardRemoveMsg>
+<SDCardWaitMsg>tarjeta SD está formateada, por favor no apague el dispositivo......</SDCardWaitMsg>
+</storagehtml>
+
+<loginhtml>
+<LanguageSpan>idioma:</LanguageSpan>
+<StreamTypeSpan>corriente:</StreamTypeSpan>
+<streamHDSpan>Flujo principal</streamHDSpan>
+<streamFluentSpan>Corriente secundaria</streamFluentSpan>
+<ApplySpan>aplicación</ApplySpan>
+<DownloadSpan>Descargar reproductor</DownloadSpan>
+</loginhtml>
+
+<wifihtml>
+<WifiStatusSpan>estado:</WifiStatusSpan>
+<WifiEnableSpan>permitir</WifiEnableSpan>
+<CurHotPointSpan>El punto caliente actual</CurHotPointSpan>
+<CurHotPointSSIDSpan>SSID:</CurHotPointSSIDSpan>
+<CurHotPointStatusSpan>Estado de la conexión:</CurHotPointStatusSpan>
+<ConfSSIDSpan>SSID:</ConfSSIDSpan>
+<AuthModeSpan>Encryption:</AuthModeSpan>
+<WPAPSKKeySpan>contraseña:</WPAPSKKeySpan>
+<ShowPasswordSpan>Display contraseña</ShowPasswordSpan>
+<SearchResultHeadSignalSpan>señal</SearchResultHeadSignalSpan>
+<SearchResultHeadSSIDSpan>SSID</SearchResultHeadSSIDSpan>
+<SearchResultHeadAuthModeSpan>Encryption</SearchResultHeadAuthModeSpan>
+<SearchResultHeadSearchSpan>búsqueda</SearchResultHeadSearchSpan>
+<TestSpan>prueba</TestSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<DisconnectSpan>desconectar</DisconnectSpan>
+<ConnectSpan>conexión</ConnectSpan>
+<TestConnectSpan>Poniendo a prueba, por favor espere！</TestConnectSpan>
+<TestConnectSuccessSpan>La conexión se realiza correctamente!</TestConnectSuccessSpan>
+<TestConnectFailureSpan>Falló la conexión!</TestConnectFailureSpan>
+<IPChangeMsg>Los ajustes se han cambiado, vuelva a conectar!</IPChangeMsg>
+<PswLengthSpan>Un mínimo de ocho caracteres, un máximo de 63 caracteres</PswLengthSpan>
+</wifihtml>
+
+<p2phtml>
+<P2PSpan>P2P:</P2PSpan>
+<P2PStatusSpan>estado:</P2PStatusSpan>
+<p2pEnableSpan>permitir</p2pEnableSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<P2PIDSpan>Número de Serie:</P2PIDSpan>
+<P2PPwdSpan>contraseña:</P2PPwdSpan>
+</p2phtml>
+
+<hltalmproxyhtml>
+<StreamEnableSpan>Activar el servidor:</StreamEnableSpan>
+<StreamTypeSpan>Tipo de corriente:</StreamTypeSpan>
+<MainStramSpan>Flujo principal</MainStramSpan>
+<SubStreamSpan>Sub-stream</SubStreamSpan>
+<StreamAddressSpan>dirección del servidor:</StreamAddressSpan>
+<ServerPortSpan>puerto del servidor:</ServerPortSpan>
+<UsernameSpan>nombre de usuario:</UsernameSpan>
+<PasswordSpan>contraseña:</PasswordSpan>
+<TimeoutSpan>Tiempo de espera:</TimeoutSpan>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<PlatformSetSpan>configuración de plataforma</PlatformSetSpan>
+<RebootMsgSpan>Después se cambian los parámetros, es necesario reiniciar el sistema para entrar en vigor!</RebootMsgSpan>
+</hltalmproxyhtml>
+
+<replayhtml>
+<PlaySpan>Broadcast</PlaySpan>
+<PauseSpan>pausa</PauseSpan>
+<FramePlaySpan>Ponga el bastidor del</FramePlaySpan>
+<FastPlaySpan>liberación rápida</FastPlaySpan>
+<StopSpan>Deténgase</StopSpan>
+<FileListSpan>lista:</FileListSpan>
+<CommonSpan>general</CommonSpan>
+<AlarmSpan>alarma</AlarmSpan>
+<AllTypeSpan>todo</AllTypeSpan>
+<SearchResultHeadSSIDSpan>tiempo</SearchResultHeadSSIDSpan>
+<SearchResultHeadAuthModeSpan>Encryption</SearchResultHeadAuthModeSpan>
+<dayNamesMinSunday>día</dayNamesMinSunday>
+<dayNamesMinMonday>la</dayNamesMinMonday>
+<dayNamesMinTuesday>dos</dayNamesMinTuesday>
+<dayNamesMinWednesday>tres</dayNamesMinWednesday>
+<dayNamesMinThursday>cuatro</dayNamesMinThursday>
+<dayNamesMinFriday>cinco</dayNamesMinFriday>
+<dayNamesMinSaturday>seis</dayNamesMinSaturday>
+<dayNamesSunday>domingo</dayNamesSunday>
+<dayNamesMonday>lunes</dayNamesMonday>
+<dayNamesTuesday>martes</dayNamesTuesday>
+<dayNamesWednesday>miércoles</dayNamesWednesday>
+<dayNamesThursday>jueves</dayNamesThursday>
+<dayNamesFriday>viernes</dayNamesFriday>
+<dayNamesSaturday>sábado</dayNamesSaturday>
+<dayNamesShortSunday>domingo</dayNamesShortSunday>
+<dayNamesShortMonday>lunes</dayNamesShortMonday>
+<dayNamesShortTuesday>martes</dayNamesShortTuesday>
+<dayNamesShortWednesday>miércoles</dayNamesShortWednesday>
+<dayNamesShortThursday>jueves</dayNamesShortThursday>
+<dayNamesShortFriday>viernes</dayNamesShortFriday>
+<dayNamesShortSaturday>sábado</dayNamesShortSaturday>
+<monthNamesJanuar>enero</monthNamesJanuar>
+<monthNamesFebruar>febrero</monthNamesFebruar>
+<monthNamesMarts>marzo</monthNamesMarts>
+<monthNamesApril>abril</monthNamesApril>
+<monthNamesMaj>mayo</monthNamesMaj>
+<monthNamesJuni>junio</monthNamesJuni>
+<monthNamesJuli>julio</monthNamesJuli>
+<monthNamesAugust>agosto</monthNamesAugust>
+<monthNamesSeptember>septiembre</monthNamesSeptember>
+<monthNamesOktober>octubre</monthNamesOktober>
+<monthNamesNovember>noviembre</monthNamesNovember>
+<monthNamesDecember>diciembre</monthNamesDecember>
+<monthNamesShortJanuar>enero</monthNamesShortJanuar>
+<monthNamesShortFebruar>febrero</monthNamesShortFebruar>
+<monthNamesShortMarts>marzo</monthNamesShortMarts>
+<monthNamesShortApril>abril</monthNamesShortApril>
+<monthNamesShortMaj>mayo</monthNamesShortMaj>
+<monthNamesShortJuni>junio</monthNamesShortJuni>
+<monthNamesShortJuli>julio</monthNamesShortJuli>
+<monthNamesShortAugust>agosto</monthNamesShortAugust>
+<monthNamesShortSeptember>septiembre</monthNamesShortSeptember>
+<monthNamesShortOktober>octubre</monthNamesShortOktober>
+<monthNamesShortNovember>noviembre</monthNamesShortNovember>
+<monthNamesShortDecember>diciembre</monthNamesShortDecember>
+<closeText>cerca</closeText>
+<prevText>mes pasado</prevText>
+<nextText>El mes que viene</nextText>
+<weekHeader>semana</weekHeader>
+<yearSuffix>en</yearSuffix>
+</replayhtml>
+
+
+<ftphtml>
+<ServerSpan>servidor:</ServerSpan>
+<PortSpan>número de puerto:</PortSpan>
+<UserSpan>nombre de usuario:</UserSpan>
+<PasswdSpan>contraseña:</PasswdSpan>
+<TestSpan>prueba</TestSpan>
+<PortErrMsg>Error de entrada de puerto</PortErrMsg>
+<ApplySpan>aplicación</ApplySpan>
+<CancelSpan>cancelar</CancelSpan>
+<TestConnectSpan>Poniendo a prueba, por favor espere!</TestConnectSpan>
+<TestConnectSuccessSpan>La conexión se realiza correctamente!</TestConnectSuccessSpan>
+<TestConnectFailureSpan>Falló la conexión!</TestConnectFailureSpan>
+</ftphtml>
+
+<unlockhtml>
+<EnterPassword>Por favor introduce la contraseña de desbloqueo:</EnterPassword>
+<OK>Confirmar</OK>
+<Cancel>Cancelar</Cancel>
+</unlockhtml>
+
+</es>

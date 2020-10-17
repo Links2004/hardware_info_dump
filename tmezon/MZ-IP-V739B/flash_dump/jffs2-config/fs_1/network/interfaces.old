@@ -1,0 +1,3 @@
+auto eth0 eth2
+iface eth0 inet dhcp
+iface eth2 inet dhcp

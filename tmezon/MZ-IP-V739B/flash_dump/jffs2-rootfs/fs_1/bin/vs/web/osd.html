@@ -1,0 +1,78 @@
+﻿<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset =UTF-8"/>
+<meta http-equiv="Content-Script-Type" content="text/javascript"/>
+<meta http-equiv="Pragma" content="no-cache"/>
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta http-equiv="Expires" content="Mon, 06 Jan 1990 00:00:01 GMT"/>
+<meta http-equiv="X-UA-Compatible" content="IE=7"/>
+<title></title>
+<!--------------------网页需要的CSS ------------------->
+<link rel="stylesheet" type="text/css" href="css/base-ui.css" />
+<!--[if lte IE 7]>
+<link rel="stylesheet" type="text/css" href="css/IE6.css" />
+<![endif]-->
+<!--------------------网页自身的CSS------------------->
+<style type="text/css"></style>
+<!--------------------网页需要的脚本 ------------------->
+<script type="text/javascript" src="js/jquery.js"></script>
+<script  type="text/javascript" src="js/common.js"></script>
+<script type="text/vbscript" src="js/gbk2utf8.vbs"></script>
+<script type="text/javascript" src="js/gbk2utf8.js"></script>
+<script  type="text/javascript" src="js/osd.js"></script>
+
+<!--------------------CGI 命令------------------->
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getosd&-chn=1&-region=0&cmd=getosd&-chn=1&-region=1&" TYPE="text/javascript"></SCRIPT>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?cmd=getvencattr&-chn=011&cmd=getvideoformat&-chn=011" TYPE="text/javascript"></SCRIPT>
+<script language="JavaScript1.2" src="cgi-bin/hi3510/getviattr.cgi?-type=devmode&" type="text/javascript"></script>
+<SCRIPT LANGUAGE="JavaScript1.2" SRC="cgi-bin/hi3510/param.cgi?&cmd=getserverinfo&" TYPE="text/javascript"></SCRIPT>
+<!--------------------网页的消息函数------------------->
+<script language="javascript"></script>
+
+</head>
+<body class="content" style="display:none;">
+<!--start content 右侧内容-->
+<div style="display:block">
+    <form name="form1">
+        <div style=" padding-top:10px; ">
+            <h4 id="ParenthesisOptionsSpan">Parenthesis Options </h4>
+            <!-------------------------------------------------------------------------->
+            <div style="display:none"><span id="TimeStampSpan">Time Stamp: </span>
+                <input type="radio" name="timeradio" value="radiobutton" id="timeon"  checked>
+                <label for="timeon" id="TimeStampOnSpan" >on</label>
+                <input type="radio" name="timeradio" value="radiobutton" id="timeoff">
+                <label for="timeoff" id="TimeStampOffSpan">off</label>
+            </div>
+            <!-------------------------------------------------------------------------->
+            <div style="display:none"> <span id="CameranameSpan">Camera name: </span>
+                <input type="radio" name="nameradio" value="radiobutton" id="camnameon"  checked >
+                <label  for="camnameon" id="CameranameOnSpan" >on</label>
+                <input type="radio" name="nameradio" value="radiobutton" id="camnameoff" >
+                <label  for="camnameoff" id="CameranameOffSpan" >off</label>
+            </div>
+            <!-------------------------------------------------------------------------->
+            <div><span id="NameSpan">Name: </span>
+                <input name="cameraname" type="text" class="STYLE_font" size="15" maxlength="12">
+            </div>
+        </div>
+        <!-----Parenthesis Options ------->
+    </form>
+</div>
+<!------------------------------需要提交的表单----------------------------->
+<div style="display:none">
+    <form name="form2">
+        <input name="cmd" type="hidden" value="showosdtime">
+        <input name="cururl" type="hidden">
+        <input id="Form2Act0" name="act0" type="hidden">
+        <input name="cmd" type="hidden" value="showosdname">
+        <input id="Form2Act1" name="act1" type="hidden">
+        <input name="cmd" type="hidden" value="setservername">
+        <input id="Form2Name2" name="name2" type="hidden">
+    </form>
+</div>
+<!------------------------------提交按钮----------------------------->
+<div class="ApplyLayerStyle"> <a id="apply"  href="#" onClick="do_submit()">Apply</a> </div>
+<div class="CancelLayerStyle"><a id="cancel" href="#" onClick="JavaScript:location.reload(true)">Cancel</a> </div>
+</body>
+</html>
