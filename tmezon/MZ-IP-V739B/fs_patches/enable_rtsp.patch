@@ -1,0 +1,11 @@
+index 317b49a..99849de 100755
+--- a/jffs2-config/fs_1/config_mtmng.ini
++++ b/jffs2-config/fs_1/config_mtmng.ini
+@@ -1,5 +1,5 @@
+ [rtspsvr]
+-enable                        = 0 ;pyu
++enable                        = 1 ;pyu
+ lisnport                       = 554
+ max_conn_num                  = 4
+ udp_sendport_min               = 5000
+
